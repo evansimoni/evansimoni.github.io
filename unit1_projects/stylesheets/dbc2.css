@@ -1,0 +1,56 @@
+body {
+	font-family: arial;
+	text-align: center;
+}
+
+div {
+	padding: 10px;
+	margin: auto;
+	border-style: solid;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#outer {
+	max-width: 60%;
+	border: none;
+	padding: 5px;
+}
+
+#header {
+	border-color: red;
+	width: auto;
+	height: 100px;
+}
+
+#content {
+	border-color: orange;
+	width: 72%;
+	height: 300px;
+	float: right;
+	margin: 5px 0px 5px 5px;
+}
+
+#sidebar {
+	border-color: green;
+	width: 20%;
+	height: 300px;
+	float: left;
+	margin: 5px 5px 5px 0px;
+}
+
+#footer {
+	border-color: black;
+	height: 100px;
+	clear: both;
+}
+
+.dat1span {
+	color: blue;
+	font-weight: bold;
+}
+
+.dat2span {
+	color: purple;
+	font-weight: bold;
+}
