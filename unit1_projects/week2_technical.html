@@ -1,0 +1,65 @@
+<!doctype hmtml>
+<head>
+	<link rel="stylesheet" type="text/css" href="stylesheets/blog_template.css">
+	<title></title>
+</head>
+<body>
+	<div id="frame">
+		<div id="header" class="center">
+			<h1>Evan Simoni's Blog</h1>
+			<div class="button"><a href="../index.html">Home</a></div>
+			<div class="button"><a href="">About</a></div>
+			<div class="button"><a href="mailto:evan.simoni@gmail.com">Contact</a></div>
+		</div>
+		<div id="body">
+			<h2>
+				What does it mean to display inline vs inline blocks?
+			</h2>
+			<p>
+				When you create a website you are essentially just arranging a bunch of boxes on the screen that can contain text or pictures. The web languages that comprise the basic structure of most websites, HTML and CSS, work together to enable coders to customize how a page looks. CSS allows you to instruct certain boxes (or elements) to have specific attributes. These attributes play into how a web browser will render the visual arrangement of the website. While there are countless attributes that affect a page's look, I will be focusing on explaing the distinction between two of them -- display: inline and display: inline-block.
+			</p>
+			<p>
+				There are two default ways that an element will behave in relation to the elements around it. First, there are inline elements, which sit side by side until they fill up the width of the page and then continue on the next line. The other type of element is a block element, which will sit on its own line and force elements around it onto other lines.
+			</p>
+			<p>
+				An elements attribute is set in the CSS. In the case of display it would look like:
+			</p>
+			<p>
+				element { display: value; }
+			</p>
+			<p>
+				When an element's display is 'inline' (either by declaration or by default), this means the element will be forced to position itself on the same line as surrounding elements. The divs below are displayed inline:
+			</p>
+			<p>
+				<div style="display: inline; border: 1px solid black">inline div</div>
+				<div style="display: inline; border: 1px solid black">inline div</div>
+				<div style="display: inline; border: 1px solid black">inline div</div>
+				<div style="display: inline; border: 1px solid black">inline div</div>
+				<div style="display: inline; border: 1px solid black">inline div</div>
+			</p>
+			<p>
+				When an element's display is inline-block, this means the element will position itself on the same line as surrounding elements (space permitting) but will also stay contained within its declared block's properties. In other words, it will still look like a block but won't get squished up against the surrounding elements like inline elements do.
+			</p>
+			<p>
+				<div style="display: inline-block; border: 1px solid black">inline-block div</div>
+				<div style="display: inline-block; border: 1px solid black">inline-block div</div>
+				<div style="display: inline-block; border: 1px solid black">inline-block div</div>
+				<div style="display: inline-block; border: 1px solid black">inline-block div</div>
+				<div style="display: inline-block; border: 1px solid black">inline-block div</div>
+			</p>
+		</div>
+		<div id="sidebar">
+			<img id="avatar" class="center" src="images/evansimoni.jpg">
+			<p class="center">Evan Simoni</p>
+			<a class="twitter-timeline" href="https://twitter.com/EVSimoni" data-widget-id="467803520494628864">Tweets by @EVSimoni</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+		<div id="footer" class="center">
+			<div class="button"><a href="https://www.facebook.com/evan.simoni">Facebook</a></div>
+			<div class="button"><a href="https://plus.google.com/+EvanSimoni/posts">Google+</a></div>
+			<div class="button"><a href="https://twitter.com/EVSimoni">Twitter</a></div>
+			<div class="button"><a href="http://instagram.com/__simoni__"</a>Instagram</div>
+			<div class="button"><a href="https://www.linkedin.com/in/evansimoni">LinkedIn</a></div>
+		</div>
+	</div>
+</body>
