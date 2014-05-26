@@ -3,6 +3,10 @@
 	.example {
 		border: 1px solid black;
 	}
+	#block {
+		width: 25%;
+		vertical-align: top;
+	}
 </style>
 <head>
 	<link rel="stylesheet" type="text/css" href="stylesheets/blog_template.css">
@@ -49,9 +53,9 @@
 			<p>
 				<div class="example">a regular div, occupying its own line like it should</div>
 				<div class="example">another classic block-by-default div</div>
-				<div class="example" style="display: inline-block">inline-block divs</div>
-				<div class="example" style="display: inline-block">look nicer than inline divs because they maintain their blockiness while still being</div>
-				<div class="example" style="display: inline-block">able to position themselves like inline elements</div>
+				<div class="example" id="block" style="display: inline-block">inline-block divs look nicer than inline divs</div>
+				<div class="example" id="block" style="display: inline-block"> because they maintain their blockiness while still being able to position themselves like inline elements.</div>
+				<div class="example" id="block" style="display: inline-block">these three divs also have their width defined at 25%</div>
 			</p>
 			<p>
 				In conclusion, inline-block is useful for positioning block level elements intact and positionally seperate from each other. Simply using inline on block-type elements will not allow them to maintain their integrity and they will be pushed up on and overlapped by surounding elements.
