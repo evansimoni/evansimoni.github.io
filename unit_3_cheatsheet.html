@@ -1,0 +1,264 @@
+<!doctype html>
+<html>
+  <head>
+    <title>SQL Cheatsheet</title>
+    <link rel="stylesheet" type="text/css" href="unit_3_cheatsheet.css">
+  </head>
+  <body>
+    <button><a href="#top">Back to Top</a></button>
+    <div id="top">
+      <h1>SQL Cheatsheet</h1>
+      <p>
+        This cheatsheet was made by Evan Simoni during week 8 of phase 0 at Dev Bootcamp. It is intended to be used as a quick reference for anyone learning SQL or for anyone who needs to quickly check their syntax.
+      </p>
+    </div>
+    <div id="topics">
+      <ul>
+        <li><a href="#select">Select</a></li>
+        <li><a href="#distinct">Distinct</a></li>
+        <li><a href="#where">Where</a></li>
+        <li><a href="#and">And & Or</a></li>
+        <li><a href="#orderby">Order By</a></li>
+        <li><a href="#insert">Insert Into</a></li>
+        <li><a href="#delete">Delete</a></li>
+        <li><a href="#like">Like</a></li>
+        <li><a href="#in">In</a></li>
+        <li><a href="#between">Between</a></li>
+        <li><a href="#aliases">Aliases</a></li>
+        <li><a href="#inner">Inner Join</a></li>
+        <li><a href="#union">Union</a></li>
+        <li><a href="#create">Create Table</a></li>
+        <li><a href="#null">Not Null</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 id="select">SELECT Statement</h2>
+      <p>
+        The SELECT statement is used to select data from a database. The result is stored in a result table, called the result-set.
+      </p>
+        <pre>
+        <code>
+          SELECT column_name,column_name
+          FROM table_name;
+        </code>
+        </pre>
+    </div>
+    <div>
+      <h2 id="distinct">SELECT DISTINCT statement</h2>
+      <p>
+          In a table, a column may contain many duplicate values; and sometimes you only want to list the different (distinct) values. The DISTINCT keyword can be used to return only distinct (different) values.
+      </p>
+        <pre>
+        <code>
+          SELECT DISTINCT column_name,column_name
+          FROM table_name;
+        </code>
+        </pre>
+    </div>
+    <div>
+      <h2 id="where">WHERE clause</h2>
+      <p>
+        The WHERE clause is used to extract only those records that fulfill a specified criterion.
+      </p>
+        <pre>
+        <code>
+          SELECT column_name,column_name
+          FROM table_name
+          WHERE column_name operator value;
+        </code>
+        </pre>
+    </div>
+    <div>
+      <h2 id="and">AND & OR operators</h2>
+      <p>
+        The AND operator displays a record if both the first condition AND the second condition are true. The OR operator displays a record if either the first condition OR the second condition is true.
+      </p>
+        <pre>
+        <code>
+          SELECT * FROM Customers
+          WHERE Country='Germany'
+          AND City='Berlin';
+          <br>
+          SELECT * FROM Customers
+          WHERE City='Berlin'
+          OR City='München';
+        </code>
+        </pre>
+    </div>
+    <div>
+      <h2 id="orderby">ORDER BY keyword</h2>
+      <p>
+        The ORDER BY keyword is used to sort the result-set by one or more columns. The ORDER BY keyword sorts the records in ascending order by default. To sort the records in a descending order, you can use the DESC keyword.
+      </p>
+        <pre>
+        <code>
+          SELECT column_name,column_name
+          FROM table_name
+          ORDER BY column_name,column_name ASC|DESC;
+        </code>
+        </pre>
+    </div>
+    <div>
+      <h2 id="insert">INSERT INTO statement</h2>
+      <p>
+        The INSERT INTO statement is used to insert new records in a table. It is possible to write the INSERT INTO statement in two forms. The first form does not specify the column names where the data will be inserted, only their values:
+      </p>
+        <pre>
+        <code>
+          INSERT INTO table_name
+          VALUES (value1,value2,value3,...);
+          <br>
+          INSERT INTO table_name (column1,column2,column3,...)
+          VALUES (value1,value2,value3,...);
+        </code>
+        </pre>
+    </div>
+    <div>
+      <h2 id="update">UPDATE Statement</h2>
+      <p>
+        The UPDATE statement is used to update existing records in a table.
+      </p>
+        <pre>
+        <code>
+          UPDATE table_name
+          SET column1=value1,column2=value2,...
+          WHERE some_column=some_value;
+        </code>
+        </pre>
+    </div>
+    <div>
+      <h2 id="delete">DELETE statement</h2>
+      <p>
+        The DELETE statement is used to delete rows in a table.
+      </p>
+        <pre>
+        <code>
+          DELETE FROM table_name
+          WHERE some_column=some_value;
+        </code>
+        </pre>
+    </div>
+    <div>
+      <h2 id="like">LIKE operator</h2>
+      <p>
+        The LIKE operator is used to search for a specified pattern in a column.
+      </p>
+        <pre>
+        <code>
+          SELECT column_name(s)
+          FROM table_name
+          WHERE column_name LIKE pattern;
+        </code>
+        </pre>
+    </div>
+    <div>
+      <h2 id="in">IN operator</h2>
+      <p>
+        The IN operator allows you to specify multiple values in a WHERE clause.
+      </p>
+        <pre>
+        <code>
+          SELECT column_name(s)
+          FROM table_name
+          WHERE column_name IN (value1,value2,...);
+        </code>
+        </pre>
+    </div>
+    <div>
+      <h2 id="between">BETWEEN operator</h2>
+      <p>
+        The BETWEEN operator selects values within a range. The values can be numbers, text, or dates.
+      </p>
+        <pre>
+        <code>
+          SELECT column_name,column_name
+          FROM table_name;
+        </code>
+        </pre>
+    </div>
+    <div>
+      <h2 id="aliases">Aliases</h2>
+      <p>
+        SQL aliases are used to give a database table, or a column in a table, a temporary name. Basically aliases are created to make column names more readable.
+      </p>
+        <pre>
+        <code>
+          SELECT column_name AS alias_name
+          FROM table_name;
+          <br>
+          SELECT column_name(s)
+          FROM table_name AS alias_name;
+        </code>
+        </pre>
+    </div>
+    <div>
+      <h2 id="inner">INNER JOIN keyword</h2>
+      <p>
+        The INNER JOIN keyword selects all rows from both tables as long as there is a match between the columns in both tables.
+      </p>
+        <pre>
+        <code>
+          SELECT column_name(s)
+          FROM table1
+          INNER JOIN table2
+          ON table1.column_name=table2.column_name;
+          <br>
+          SELECT column_name(s)
+          FROM table1
+          JOIN table2
+          ON table1.column_name=table2.column_name;
+        </code>
+        </pre>
+    </div>
+    <div>
+      <h2 id="union">UNION operator</h2>
+      <p>
+        The UNION operator is used to combine the result-set of two or more SELECT statements. Notice that each SELECT statement within the UNION must have the same number of columns. The columns must also have similar data types. Also, the columns in each SELECT statement must be in the same order. Note: The UNION operator selects only distinct values by default. To allow duplicate values, use the ALL keyword with UNION.
+      </p>
+        <pre>
+        <code>
+          SELECT column_name(s) FROM table1
+          UNION
+          SELECT column_name(s) FROM table2;
+          <br>
+          SELECT column_name(s) FROM table1
+          UNION ALL
+          SELECT column_name(s) FROM table2;
+        </code>
+        </pre>
+    </div>
+    <div>
+      <h2 id="create">CREATE TABLE statement</h2>
+      <p>
+        The CREATE TABLE statement is used to create a table in a database. Tables are organized into rows and columns; and each table must have a name.The column_name parameters specify the names of the columns of the table. The data_type parameter specifies what type of data the column can hold (e.g. varchar, integer, decimal, date, etc.). The size parameter specifies the maximum length of the column of the table.
+      </p>
+        <pre>
+        <code>
+        CREATE TABLE table_name
+        (
+        column_name1 data_type(size),
+        column_name2 data_type(size),
+        column_name3 data_type(size),
+        ....
+        );
+        </code>
+        </pre>
+    </div>
+    <div>
+      <h2 id="null">NOT NULL constraint</h2>
+      <p>
+        The NOT NULL constraint enforces a column to NOT accept NULL values. The NOT NULL constraint enforces a field to always contain a value. This means that you cannot insert a new record, or update a record without adding a value to this field. The following SQL enforces the "P_Id" column and the "LastName" column to not accept NULL values:
+      </p>
+        <pre>
+        <code>
+          CREATE TABLE PersonsNotNull
+          (
+          P_Id int NOT NULL,
+          LastName varchar(255) NOT NULL,
+          FirstName varchar(255),
+          Address varchar(255),
+          City varchar(255)
+          )
+        </code>
+        </pre>
+    </div>
