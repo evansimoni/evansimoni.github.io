@@ -1,0 +1,27 @@
+html, body {
+  height:100%;
+}
+
+.navigation {
+
+}
+
+p {
+  text-align:center;
+}
+
+.top-section {
+  height:100vh;
+  border: 1px dashed grey;
+}
+
+.project-link {
+  display:block;
+  position:absolute;
+  bottom:20px;
+  text-align:center;
+}
+
+.body-section {
+  border: 1px dashed grey;
+}
