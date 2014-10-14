@@ -9,7 +9,7 @@ Flexbox Styling
 }
 
 .header {
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .nav {
@@ -27,7 +27,9 @@ Flexbox Styling
   }
 }
 
-/* Viewport 100% */
+/********************
+Viewport 100%
+*********************/
 html, body {
   height:100%;
 }
