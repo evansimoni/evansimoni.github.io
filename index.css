@@ -24,14 +24,10 @@ Header: Flexbox
 }
 
 /********************
-Viewport 100%
+Set Div Height to 100%
 *********************/
 html, body {
   height:100%;
-}
-
-a:hover {
-  border: 1px solid black;
 }
 
 p {
@@ -45,6 +41,7 @@ p {
 
 .project-link {
   display:block;
+  width: 100%;
   position:absolute;
   bottom:20px;
   text-align:center;
@@ -53,4 +50,12 @@ p {
 .body-section {
   height: 100vh;
   border: 3px dashed grey;
+}
+
+/********************
+Custom CSS
+*********************/
+
+a:hover {
+  border: 1px solid black;
 }
