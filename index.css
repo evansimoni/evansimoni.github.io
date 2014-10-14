@@ -1,29 +1,25 @@
 /*********************
-Flexbox Styling
+Header: Flexbox
 **********************/
 .header, .nav {
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-direction: column;
-  flex-direction: column;
+  -webkit-flex-direction: row;
+  flex-direction: row;
 }
 
-.header {
-  justify-content: space-around;
-}
-
-.nav {
+.nav, .header{
   -webkit-flex: 1;
   flex: 1;
   -webkit-justify-content: space-around;
   justify-content: space-around;
 }
 
-/*Maybe add a pop out menu for small browsers*/
-@media all and (min-width: 641px) {
+/*Need to add a pop out menu for small browsers or a static row layout*/
+@media all and (max-width: 640px) {
   .header, .nav {
-    -webkit-flex-direction: row;
-    flex-direction: row;
+    -webkit-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -34,6 +30,9 @@ html, body {
   height:100%;
 }
 
+a:hover {
+  border: 1px solid black;
+}
 
 p {
   text-align:center;
