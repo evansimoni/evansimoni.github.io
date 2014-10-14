@@ -16,7 +16,7 @@ Header: Flexbox
 }
 
 /*Need to add a pop out menu for small browsers or a static row layout*/
-@media all and (max-width: 640px) {
+@media screen and (max-width: 640px) {
   .header, .nav {
     -webkit-flex-direction: column;
     flex-direction: column;
