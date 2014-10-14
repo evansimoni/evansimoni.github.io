@@ -78,7 +78,7 @@ p {
 Action Arrow
 ***************/
 .bounce {
-  position:fixed;
+  position:absolute;
   left:50%;
   bottom:5px;
   margin-top:-25px;
