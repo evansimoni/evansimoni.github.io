@@ -9,6 +9,7 @@ Header: Flexbox
 }
 
 .nav, .header{
+  padding: 20px;
   -webkit-flex: 1;
   flex: 1;
   -webkit-justify-content: space-around;
@@ -30,13 +31,15 @@ html, body {
   height:100%;
 }
 
-p {
-  text-align:center;
-}
 
 .top-section {
   height: 100vh;
   border: 3px dashed grey;
+  background-image: url('img/ggbridgecity.jpg');
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover; 
 }
 
 .project-link {
@@ -53,9 +56,18 @@ p {
 }
 
 /********************
-Custom CSS
+Over riding Bootstrap
 *********************/
 
-a:hover {
-  border: 1px solid black;
+a:hover, a:focus, .nav>li>a:hover, .nav>li>a:focus {
+  background-color: transparent;
+  text-decoration: none;
+  opacity: .6;
+}
+
+/*****************
+My CSS
+******************/
+p {
+  text-align:center;
 }
