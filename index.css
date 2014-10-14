@@ -1,10 +1,37 @@
+/*********************
+Flexbox Styling
+**********************/
+.header, .nav {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.header {
+  justify-content: space-between;
+}
+
+.nav {
+  -webkit-flex: 1;
+  flex: 1;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+/*Maybe add a pop out menu for small browsers*/
+@media all and (min-width: 641px) {
+  .header, .nav {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+/* Viewport 100% */
 html, body {
   height:100%;
 }
 
-.navigation {
-
-}
 
 p {
   text-align:center;
