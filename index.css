@@ -9,7 +9,7 @@ Header: Flexbox
 }
 
 .nav, .header{
-  padding: 20px;
+  padding-top: 12px;
   -webkit-flex: 1;
   flex: 1;
   -webkit-justify-content: space-around;
