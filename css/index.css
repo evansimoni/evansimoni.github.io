@@ -52,23 +52,6 @@ p {
   transform-style: inherit;
 }
 
-img {
-  position: absolute;
-  top: 50%;
-  left: 35%;
-  width: 320px;
-  height: 240px;
-  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
-  padding: 10px;
-  border-radius: 5px;
-  background: rgba(240,230,220, .7);
-  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
-}
-
-img:last-of-type {
-  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
-}
-
 .slide:before {
   content: "";
   position: absolute;
@@ -86,16 +69,6 @@ img:last-of-type {
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
 }
 
-.slide:nth-child(2n) .title {
-  margin-left: 0;
-  margin-right: auto;
-}
-
-.slide:nth-child(2n+1) .title {
-  margin-left: auto;
-  margin-right: 0;
-}
-
 .slide, .slide:before {
   background: 50% 50% / cover;  
 }
@@ -108,21 +81,18 @@ img:last-of-type {
 }
 
 #title {
-  background-image: url("img/ggbridgecity.jpg");
+  background-image: url("../img/sanfrancisco.jpg");
    background-attachment: fixed;  
 }
-
 #slide1:before {
-  background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-4.jpg");
+  background-image: url("../img/workstation2.jpg");
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
-
 #slide2 {
-  background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-3.jpg");
+  background-image: url("../img/keyboard.jpg");
   background-attachment: fixed;
 }
-
 #slide3:before {
   background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-5.jpg");
   transform: translateZ(-1px) scale(2);
@@ -131,4 +101,24 @@ img:last-of-type {
 
 #slide4 {
   background: #222;
+}
+
+
+
+
+img {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  width: 320px;
+  height: 240px;
+  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(240,230,220, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+
+img:last-of-type {
+  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
 }
