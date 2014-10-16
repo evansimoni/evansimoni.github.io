@@ -81,7 +81,7 @@ p {
 }
 
 #title {
-  background-image: url("../img/sanfrancisco.jpg");
+  background-image: url("../img/goldengate3.jpg");
    background-attachment: fixed;  
 }
 #slide1:before {
@@ -90,11 +90,11 @@ p {
   z-index:-1;
 }
 #slide2 {
-  background-image: url("../img/keyboard.jpg");
+  background-image: url("../img/keyboard3.jpg");
   background-attachment: fixed;
 }
 #slide3:before {
-  background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-5.jpg");
+  background-image: url("../img/writing.jpg");
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
