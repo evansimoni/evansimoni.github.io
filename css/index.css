@@ -20,8 +20,8 @@ Project-Arrow
 #project-arrow {
   position: absolute;
   bottom: 20%;
-  left: 45%;
-  right: 45%;
+  left: 25%;
+  right: 25%;
   text-align: center;
 }
 .project-arrow {
@@ -101,7 +101,7 @@ p {
    background-attachment: fixed;  
 }
 #slide1:before {
-  background-image: url("../img/workstation2-reduced.jpg");
+  background-image: url("../img/workstation-reduced.jpg");
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
@@ -126,6 +126,11 @@ p {
 #slide6 {
   background-image: url("../img/music3.jpg");
   background-attachment: fixed;
+}
+#slide7:before {
+  background-image: url("../img/wood-reduced.jpg");
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
 }
 
 img {
