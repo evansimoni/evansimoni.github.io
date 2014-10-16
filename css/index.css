@@ -15,6 +15,22 @@ Header: Flexbox
 /*Need to add a pop out menu for small browsers or a static row layout, may need seperate media queries area in css*/
 
 /*******************************
+Project-Arrow
+********************************/
+#project-arrow {
+  position: absolute;
+  bottom: 20%;
+  left: 45%;
+  right: 45%;
+  text-align: center;
+}
+.project-arrow {
+  width: 200px;
+  margin: 0 auto;
+}
+
+
+/*******************************
 Parallax
 ********************************/
 html {
@@ -108,12 +124,9 @@ p {
   z-index:-1;
 }
 #slide6 {
-  background-image: url("../img/music.jpg");
+  background-image: url("../img/music3.jpg");
   background-attachment: fixed;
 }
-
-
-
 
 img {
   position: absolute;
