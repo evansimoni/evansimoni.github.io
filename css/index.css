@@ -6,13 +6,45 @@ Header: Flexbox
   display: flex;
   -webkit-flex-direction: row;
   flex-direction: row;
+}
+.header {
+  justify-content: space-between;
+}
+.nav {
   -webkit-flex: 1;
   flex: 1;
   -webkit-justify-content: space-around;
   justify-content: space-around;
-  border: 1px dashed black;
 }
-/*Need to add a pop out menu for small browsers or a static row layout, may need seperate media queries area in css*/
+
+/*********************
+Header: Styling
+**********************/
+.header {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  top: 0px;
+  margin: 0 auto;
+  background: black;
+  opacity: .7;
+  height: 2em;
+}
+.nav {
+  list-style: none;
+  font-size: .6em;
+}
+.nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  opacity: .8;
+}
+.nav li a:hover {
+  opacity: 1;
+}
+
 
 /*******************************
 Project-Arrow
@@ -28,7 +60,6 @@ Project-Arrow
   width: 200px;
   margin: 0 auto;
 }
-
 
 /*******************************
 Parallax
@@ -148,4 +179,9 @@ img {
 
 img:last-of-type {
   transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
+}
+
+/*Media Query for Mobile*/
+@media screen and (max-width: 800px) {
+  
 }
