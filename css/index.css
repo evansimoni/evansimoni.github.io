@@ -1,4 +1,15 @@
 /*********************
+Overarching Styling
+**********************/
+a {
+  text-decoration: none;
+}
+a:active {
+  color: inherit;
+}
+
+
+/*********************
 Header: Flexbox
 **********************/
 .header, .nav {
@@ -37,7 +48,6 @@ Header: Styling
 }
 .nav li a {
   color: white;
-  text-decoration: none;
   font-size: 1.5em;
   text-transform: uppercase;
   opacity: 1;
@@ -77,16 +87,13 @@ Icon Hover Effects
 /*******************************
 Project-Arrow
 ********************************/
-#project-arrow {
-  position: absolute;
-  bottom: 20%;
-  left: 25%;
-  right: 25%;
-  text-align: center;
+.project-arrow-div {
 }
-.project-arrow {
-  width: 200px;
+#project-arrow {
   margin: 0 auto;
+  position: relative;
+  bottom: 0;
+  text-align: center;
 }
 
 /*******************************
@@ -165,7 +172,7 @@ p {
   z-index:-1;
 }
 #slide4 {
-  background-image: url("../img/tree-reduced.jpg");
+  background-image: url("../img/muir-reduced.jpg");
   background-attachment: fixed;
 }
 #slide5:before {
@@ -178,7 +185,7 @@ p {
   background-attachment: fixed;
 }
 #slide7:before {
-  background-image: url("../img/meeting.jpg");
+  background-image: url("../img/meeting-reduced.jpg");
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
