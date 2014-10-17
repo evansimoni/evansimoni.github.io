@@ -27,7 +27,8 @@ Header: Styling
   top: 0px;
   margin: 0 auto;
   background: black;
-  opacity: .7;
+  border-bottom: 1px solid black;
+  opacity: .8;
   height: 2em;
 }
 .nav {
@@ -37,14 +38,41 @@ Header: Styling
 .nav li a {
   color: white;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1.5em;
   text-transform: uppercase;
-  opacity: .8;
+  opacity: 1;
 }
 .nav li a:hover {
   opacity: 1;
 }
 
+/*******************************
+Icon Hover Effects
+********************************/
+.fa-github:hover {
+  color: #810081;
+  text-shadow: 0px 0px 3px #810081;
+}
+.fa-lightbulb-o:hover {
+  color: #fffc00;
+  text-shadow: 0px 0px 3px #fffc00;
+}
+.fa-soundcloud:hover {
+  color: #F67B0D;
+  text-shadow: 0px 0px 3px #F67B0D;
+}
+.fa-twitter:hover {
+  color: #00B0ED;
+  text-shadow: 0px 0px 3px #00B0ED;
+}
+.fa-linkedin:hover {
+  color: #007bb6;
+  text-shadow: 0px 0px 3px #007bb6;
+}
+.fa-envelope:hover {
+  color: #51B9DC;
+  text-shadow: 0px 0px 3px #51B9DC;
+}
 
 /*******************************
 Project-Arrow
@@ -68,7 +96,6 @@ html {
   height: 100%;
   overflow: hidden;
 }
-
 body { 
   margin:0;
   padding:0;
@@ -78,17 +105,14 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
 }
-
 h1 {
    font-size: 250%
 }
-
 p {
   font-size: 140%;
   line-height: 150%;
   color: white;
 }
-
 .slide {
   position: relative;
   padding: 25vh 10%;
@@ -98,7 +122,6 @@ p {
   box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
   transform-style: inherit;
 }
-
 .slide:before {
   content: "";
   position: absolute;
@@ -107,7 +130,6 @@ p {
   left:0;
   right:0;
 }
-
 .title {
   width: 50%;
   padding: 5%;
@@ -115,18 +137,15 @@ p {
   background: rgba(240,230,220, .7);
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
 }
-
 .slide, .slide:before {
   background: 50% 50% / cover;  
 }
-
 .header {
   text-align: center;
   font-size: 175%;
   color: #fff;
   text-shadow: 0 2px 2px #000;
 }
-
 #title {
   background-image: url("../img/goldengate3-reduced.jpg");
    background-attachment: fixed;  
@@ -159,11 +178,18 @@ p {
   background-attachment: fixed;
 }
 #slide7:before {
-  background-image: url("../img/wood-reduced.jpg");
+  background-image: url("../img/meeting.jpg");
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
+#slide8 {
+  background-image: url("../img/wood-reduced.jpg");
+  background-attachment: fixed;
+}
 
+/*******************************/
+Dynamic Image Positioning
+/*******************************/
 img {
   position: absolute;
   top: 50%;
