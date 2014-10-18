@@ -64,7 +64,7 @@ Header: Mobile Styling
 **********************/
 @media screen and (max-width: 800px) {
   .header {
-    padding: 22px 0;
+    padding: 15px 0;
   }
   .nav {
     list-style: none;
