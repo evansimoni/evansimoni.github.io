@@ -72,7 +72,7 @@ Header: Mobile Styling
   }
   .nav li a {
     background-color: black;
-    opacity: .6;
+    opacity: .8;
     padding: 5px 13px 4px;
   }
 }
