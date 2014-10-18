@@ -3,6 +3,13 @@ Overarching Styling
 **********************/
 a {
   text-decoration: none;
+  color: green;
+  transition: 200ms ease-in-out;
+  opacity: 1;
+}
+a:hover {
+  opacity: .8;
+  color: blue;
 }
 a:active {
   color: inherit;
@@ -32,20 +39,26 @@ Header: Styling
   position: fixed;
   z-index: 99;
   width: 100%;
-  padding: 20px 0;
-  color: #fff;
+  padding: 44px 0;
   text-shadow: 0 1px 5px #000;
 }
 .nav {
   list-style: none;
-  font-size: 1em;
+  font-size: 2em;
 }
 .nav li a {
   color: white;
   text-transform: uppercase;
 }
 .nav li a:hover {
-  opacity: .9;
+  opacity: .8;
+}
+.nav li a {
+  background-color: black;
+  opacity: .6;
+  border-radius: 7px;
+  transition: 200ms ease-in-out;
+  padding: 8px 16px 7px;
 }
 
 /*******************************
