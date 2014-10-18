@@ -68,7 +68,7 @@ Header: Mobile Styling
   }
   .nav {
     list-style: none;
-    font-size: 1em;
+    font-size: .75em;
   }
   .nav li a {
     background-color: black;
