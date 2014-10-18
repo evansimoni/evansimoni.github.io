@@ -62,7 +62,7 @@ Header: Desktop Styling
 /*********************
 Header: Mobile Styling
 **********************/
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 767px) {
   .header {
     padding: 12px 0;
   }
