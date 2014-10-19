@@ -6,7 +6,7 @@ a {
   color: green;
   transition: 200ms ease-in-out;
   opacity: 1;
-  
+
 }
 a:hover {
   opacity: .8;
@@ -39,8 +39,7 @@ Header: Desktop Styling
   position: fixed;
   z-index: 99;
   width: 100%;
-  padding: 44px 0;
-  text-shadow: 0 1px 5px #000;
+  padding: 50px 0;
 }
 .nav {
   list-style: none;
@@ -60,6 +59,7 @@ Header: Desktop Styling
   transition: 200ms ease-in-out;
   padding: 8px 16px 7px;
 }
+
 /*********************
 Header: Mobile Styling
 **********************/
@@ -95,13 +95,35 @@ h1 {
   font-size: 450%;
 }
 p {
-  font-size: 140%;
-  line-height: 150%;
+  font-size: 1.2em;
+  line-height: 1.5em;
   color: white;
 }
-h1, .title-links {
+h1 {
   text-align: center;
 }
+/*******************************
+Action Buttons
+********************************/
+.action-button {
+  text-align: center;
+  margin: auto;
+  padding: 1px 1px 1px;
+  width: 140px;
+  background-color: white;
+  opacity: .8;
+  border-radius: 7px;
+  transition: 200ms ease-in-out;
+}
+.action-button-icon {
+  font-size: 3em;
+}
+.action-button-text {
+  font-family: 'Montserrat', sans-serif;  text-decoration: none;
+  font-size: .8em;
+  color: black;
+}
+
 
 /*******************************
 Parallax
@@ -171,7 +193,7 @@ body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.4), 
       rgba(0, 0, 0, 0.4)
-    ), url("../img/writing-reduced.jpg");
+    ), url("../img/picjumbo.com_IMG_3242.jpg");
   background-attachment: fixed;
 }
 #slide5:before {
