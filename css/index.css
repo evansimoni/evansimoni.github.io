@@ -11,72 +11,12 @@ a {
 a:hover {
   opacity: .8;
   color: blue;
+  cursor: pointer;
 }
 a:active {
   color: inherit;
 }
 
-/*********************
-Header: Flexbox
-**********************/
-.header, .nav {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex: 1;
-  flex: 1;
-  -webkit-justify-content: space-around;
-  justify-content: space-around;
-  padding: 0;
-  margin: 0;
-}
-
-/*********************
-Header: Desktop Styling
-**********************/
-.header {
-  position: fixed;
-  z-index: 99;
-  width: 100%;
-  padding: 50px 0;
-}
-.nav {
-  list-style: none;
-  font-size: 2em;
-}
-.nav li a {
-  color: white;
-  text-transform: uppercase;
-}
-.nav li a:hover {
-  opacity: .8;
-}
-.nav li a {
-  background-color: black;
-  opacity: .6;
-  border-radius: 7px;
-  transition: 200ms ease-in-out;
-  padding: 8px 16px 7px;
-}
-
-/*********************
-Header: Mobile Styling
-**********************/
-@media screen and (max-width: 767px) {
-  .header {
-    padding: 12px 0;
-  }
-  .nav {
-    list-style: none;
-    font-size: .75em;
-  }
-  .nav li a {
-    background-color: black;
-    opacity: .8;
-    padding: 5px 13px 4px;
-  }
-}
 /*******************************
 Project-Arrow
 ********************************/
@@ -106,12 +46,21 @@ h1 {
 Action Buttons
 ********************************/
 .action-button {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex: 1;
+  flex: 1;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin: 2%;
   text-align: center;
   margin: auto;
-  padding: 1px 1px 1px;
-  width: 140px;
+  width: 300px;
   background-color: white;
   opacity: .8;
+  box-shadow: 10px, 10px, 15px #000;
   border-radius: 7px;
   transition: 200ms ease-in-out;
 }
@@ -122,115 +71,4 @@ Action Buttons
   font-family: 'Montserrat', sans-serif;  text-decoration: none;
   font-size: .8em;
   color: black;
-}
-
-
-/*******************************
-Parallax
-********************************/
-html {
-  height: 100%;
-  overflow: hidden;
-}
-body { 
-  margin:0;
-  padding:0;
-  perspective: 1px;
-  transform-style: preserve-3d;
-  height: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
-.slide {
-  position: relative;
-  padding: 25vh 10%;
-  min-height: 100vh;
-  width: 100vw;
-  box-sizing: border-box;
-  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
-  transform-style: inherit;
-}
-.slide:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left:0;
-  right:0;
-}
-.title {
-  width: 50%;
-  padding: 5%;
-  border-radius: 5px;
-  background: rgba(240,230,220, .7);
-  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
-}
-.slide, .slide:before {
-  background: 50% 50% / cover;  
-}
-#title {
-  background-image: url("../img/goldengate3-reduced.jpg");
-  background-attachment: fixed;  
-}
-#slide1:before {
-  background-image: url("../img/workstation-reduced.jpg");
-  transform: translateZ(-1px) scale(2);
-  z-index:-1;
-}
-#slide2 {
-  background-image: linear-gradient(
-      rgba(0, 0, 0, 0.4), 
-      rgba(0, 0, 0, 0.4)
-    ), url("../img/keyboard3.jpg");
-  background-attachment: fixed;
-}
-#slide3:before {
-  background-image: url("../img/muir-reduced.jpg");
-  transform: translateZ(-1px) scale(2);
-  z-index:-1;
-}
-#slide4 {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.4), 
-      rgba(0, 0, 0, 0.4)
-    ), url("../img/picjumbo.com_IMG_3242.jpg");
-  background-attachment: fixed;
-}
-#slide5:before {
-  background-image: url("../img/music2-reduced.jpg");
-  transform: translateZ(-1px) scale(2);
-  z-index:-1;
-}
-#slide6 {
-  background-image: url("../img/music3.jpg");
-  background-attachment: fixed;
-}
-#slide7:before {
-  background-image: url("../img/meeting-reduced.jpg");
-  transform: translateZ(-1px) scale(2);
-  z-index:-1;
-}
-#slide8 {
-  background-image: url("../img/wood-reduced.jpg");
-  background-attachment: fixed;
-}
-
-/*******************************/
-Dynamic Image Positioning
-/*******************************/
-img {
-  position: absolute;
-  top: 50%;
-  left: 35%;
-  width: 320px;
-  height: 240px;
-  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
-  padding: 10px;
-  border-radius: 5px;
-  background: rgba(240,230,220, .7);
-  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
-}
-
-img:last-of-type {
-  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
 }
