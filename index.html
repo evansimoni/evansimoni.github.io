@@ -1,12 +1,13 @@
 <!DOCTYPE html>
+<html class="no-skrollr">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>Evan Simoni</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-	<!-- Normalize CSS -->
+	<!-- Main CSS (rename index) -->
 	<link rel="stylesheet" href="css/normalize.css">
-	<!-- Skrollr CSS + Styling -->
+	<!-- Normalize CSS -->
 	<link rel="stylesheet" href="css/main.css">
 	<!-- Grid CSS -->
 	<link rel="stylesheet" type="text/css" href="css/2cols.css">
@@ -14,41 +15,28 @@
 	<link rel="stylesheet" type="text/css" href="css/font-awesome-4.2.0/css/font-awesome.min.css">
 	<!-- Google Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat|Raleway:400|Roboto+Slab' rel='stylesheet' type='text/css'>
-	<!-- Modernizr JS -->
-	<script src="js/vendor/modernizr-2.7.1.min.js"></script>
 </style>
 </head>
 
-<body id="skrollr-body" class="loading">
-	<div id="preload">
-		<img src="img/goldengate3-reduced.jpg">
-		<img src="img/keyboard3.jpg">
-		<img src="img/wood-reduced.jpg">
-	</div>
+<body>
+	<section>
+		<div class="slide-1 background">
+			<div class="content">
 
-	<main>
+				<h1>Evan Simoni</h1>
 
-<section id="slide-1" class="homeSlide">
-	<div class="bcg"
-	data-center="background-position: 50% 0px;"
-	data-top-bottom="background-position: 50% -100px;"
-	data-anchor-target="#slide-1"
-	>
-		<div class="hsContainer">
-			<div class="hsContent"
-			data-center="bottom: 500px; opacity: 1"
-			data-top="bottom: 1000px; opacity: .7"
-			data-anchor-target="#slide-1 h2"
-			>
-
-				<h2>Evan Simoni</h2>
 				<p class="headline">Web dev, dreamer, whatever it takes</p>
-				<div class="links section group">
+
+				<div class="section group">
 					<div class="link">	
-						<p><i class="fa fa-cloud-download action-button-icon"></i><br><a href="dropbox.com">Resume</a></p>
+						<p>
+							<a href="dropbox.com"><i class="fa fa-cloud-download action-button-icon"></i><br>Resume</a>
+						</p>
 					</div>
 					<div class="link">
-						<p><i class="fa fa-linkedin-square action-button-icon"></i><br><a href="http://www.linkedin.com/in/evansimoni">Connect</a></p>
+						<p>
+							<a href="http://www.linkedin.com/in/evansimoni"><i class="fa fa-linkedin-square action-button-icon"></i><br>Connect</a>
+						</p>
 					</div>
 				</div>
 
@@ -68,91 +56,65 @@
 
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
 
-<section id="slide-2" class="homeSlide">
-	<div class="bcg"
-	data-center="background-position: 50% 0px;"
-	data-top-bottom="background-position: 50% -100px;"
-	data-bottom-top="background-position: 50% 100px;"
-	data-anchor-target="#slide-2"
-	>
-		<div class="hsContainer">
-			<div class="hsContent"
-			data-top="opacity: 1"
-			data-center-top="opacity: 0"
-			data--40p-bottom="opacity: 0;"
-			data-anchor-target="#slide-2"
-			>
-			<h2>Projects</h2>
-			<div class="section group">
-				<div class="col span_1_of_2">
-					<p class="about-projects">
-						I'm relatively new to the world of web development, but I love immersing myself in new technology stacks. I enjoy the challenge and I think it's the best way to learn. In the past four months I have gained experience with [list of technologies]. Linked here are a few projects I have worked on recently.
+	<section>
+		<div class="slide-2 background">
+			<div class="content">
+				
+				<h1>Projects</h1>
+
+				<div class="section group">
+
+					<div class="col span_1_of_2">
+						<p class="about-projects">
+							I'm relatively new to the world of web development, but I love immersing myself in new technology stacks. I enjoy the challenge and I think it's the best way to learn. In the past four months I have gained experience with [list of technologies]. Linked here are a few projects I have worked on recently.
+						</p>
+					</div>
+					<div class="col span_1_of_2">
+						<ul>
+							<li>
+								<a href="http://brew-bar-baz.herokuapp.com/">Brew Bar Baz</a>
+								<span>Responsive front-end, Ruby + Sinatra back-end</span>
+							</li>
+							<li><a href="">Project 2 name</a>
+								<span>Sinatra, Angular, Backbone etc</span>
+							</li>
+							<li><a href="">Project 3 name</a>
+								<span>Sinatra, Angular, Backbone etc</span>
+							</li>
+							<li><a href="">Project 4 name</a>
+								<span>Sinatra, Angular, Backbone etc</span>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="slide-3 background">
+			<div class="content">
+
+				<h1>Get in touch</h1>
+
+				<div class="section group">
+					<!-- mentorship, meet for coffee, talk about life etc -->
+					<p>
+						I'm primarily interested in opportunities to work on front end development, user interface design and user experience. I'm also into the idea of working directly with customers in a support engineer type of role. Please don't hesitate to reach out!
 					</p>
 				</div>
-				<div class="col span_1_of_2">
-					<ul>
-						<li>
-							<a href="http://brew-bar-baz.herokuapp.com/">Brew Bar Baz</a>
-							<span>Responsive front-end, Ruby + Sinatra back-end</span>
-						</li>
-						<li><a href="">Project 2 name</a>
-							<span>Sinatra, Angular, Backbone etc</span>
-						</li>
-						<li><a href="">Project 3 name</a>
-							<span>Sinatra, Angular, Backbone etc</span>
-						</li>
-						<li><a href="">Project 4 name</a>
-							<span>Sinatra, Angular, Backbone etc</span>
-						</li>
-					</ul>
+
+				<div class="email section group">
+					<h3><i class="fa fa-send"></i></base> evan.simoni@gmail.com</h3>
 				</div>
+
 			</div>
 		</div>
-	</div>
-</div>
-</section>
+	</section>
 
-<section id="slide-3" class="homeSlide">
-	<div class="bcg"
-	data-center="background-position: 50% 0px;"
-	data-top-bottom="background-position: 50% -100px;"
-	data-bottom-top="background-position: 50% 100px;"
-	data-anchor-target="#slide-3"
-	>
-		<div class="hsContainer">
-			<div class="hsContent"
-			data-bottom-top="opacity: 0"
-			data-25p-top="opacity: 0"
-			data-top="opacity: 1" 
-			data-anchor-target="#slide-3"
-			>
-			<h2>Get in touch</h2>
-			<div class="section group">
-				<!-- mentorship, meet for coffee, talk about life etc -->
-				<p>
-					I'm primarily interested in opportunities to work on front end development, user interface design and user experience. I'm also into the idea of working directly with customers in a support engineer type of role. Please don't hesitate to reach out!
-				</p>
-			</div>
-			<br>
-			<div class="email section group">
-				<h3><i class="fa fa-send"></i></base> evan.simoni@gmail.com</h3>
-			</div>
-		</div>
-	</div>
-</section>
-
-</main>
-
-<!-- jQuery -->
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<!-- ImagesLoaded Script -->
-<script src="js/imagesloaded.js"></script>
-<!-- Skrollr -->
-<script src="js/skrollr.js"></script>
-<!-- Main JS -->
-<script src="js/_main.js"></script>
 </body>
 </html>
