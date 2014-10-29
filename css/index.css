@@ -20,7 +20,6 @@ h1 {
   font-size: 4.5em;
   line-height: 1em;
   text-align: center;
-  padding-top: 12%;
   padding-bottom: 15px;
   margin: 0;
 }
@@ -33,6 +32,9 @@ a {
 a:hover {
   opacity: .75;
 }
+a:visited {
+  color: inherit;
+}
 
 /* Slide 1 /////////////////////////////////////////*/
 .slide-1 {
@@ -44,10 +46,31 @@ a:hover {
 }
 .slide-1 h1 {
   color: #333;
+  padding-top: 2%;
+
 }
 .slide-1 .headline {
   font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
   color: #333;
+}
+.headshot {
+  border-radius: 50%;
+  border: 3px solid #F7F6F4;
+  max-width: 170px;
+}
+.slide-1 .intro {
+  font-family: 'Montserrat', sans-serif; 
+  font-weight: 500;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  color: #333;
+  text-align: center;
+  max-width: 540px;
+  margin: auto;
+}
+.slide-1 .intro a {
+  color: #545D7A;
 }
 .slide-1 .link {
   font-family: 'Montserrat', sans-serif;
@@ -66,7 +89,7 @@ a:hover {
   position: fixed;
   left: 0;
   right: 0;
-  bottom: 5%;
+  bottom: 1%;
 }
 .chevron a {
   font-family: 'Raleway';
@@ -78,18 +101,13 @@ a:hover {
 /* Slide 2 /////////////////////////////////////////*/
 .slide-2 {
   background-image: linear-gradient(
-    rgba(0, 0, 0, 0.6), 
-    rgba(0, 0, 0, 0.6)
-    ), url('../img/keyboard.jpg')
+    rgba(0, 0, 0, 0.45), 
+    rgba(0, 0, 0, 0.45)
+    ), url('../img/wood-reduced.jpg')
 }
 .slide-2 h1 {
-  color: #FEFCCC;
-}
-.slide-2 p {
-  font-family: 'Raleway', sans-serif; 
-  font-size: 1.3em;
-  line-height: 1.6em;
-  color: #FEFCCC;
+  color: #F7F6F4;
+  padding-top: 10%;
 }
 .slide-2 ul {
   text-align: center;
@@ -100,44 +118,13 @@ a:hover {
   font-family: 'Raleway', sans-serif;
   font-size: 1.3em;
   line-height: 1.6em;
-  color: #FEFCCC;
+  color: #F7F6F4;
 }
 .slide-2 a {
   font-weight: 700;
   color: #98D4BC;
 }
-.contact {
-  position: relative;
-  margin: auto;
-  text-align: center;
-}
-.contact a {
-  font-family: 'Raleway';
-  text-transform: uppercase;
-}
-
-
-/* Slide 3 /////////////////////////////////////////*/
-.slide-3 {
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.1), 
-    rgba(0, 0, 0, 0.1)
-    ), url('../img/wood-reduced.jpg')
-}
-
-.slide-3 h1 {
-  color: #F7F6F4;
-}
-.slide-3 p {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.3em;
-  line-height: 1.6em;
-  color: #F7F6F4;
-  text-align: center;
-  max-width: 600px;
-  margin: auto;
-}
-.slide-3 h2 {
+.slide-2 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2em;
   color: #F7F6F4;
@@ -148,16 +135,19 @@ a:hover {
 
 /* Media Queries /////////////////////////////////////////*/
 @media only screen and (max-width: 767px) {
+  .slide-1 {
+    background-image: linear-gradient(
+    rgba(255, 255, 255, 0.25), 
+    rgba(255, 255, 255, 0.25)
+    ), url('../img/view.jpg');
+  }
   .chevron {
     position: relative;
     left: 0;
     right: 0;
     bottom: 0;
   }
-  .slide-2 p {
-    text-align: center;
-  }
-  .slide-3 h2 {
+  .slide-2 h2 {
     font-size: 1.2em;
   }
 }
