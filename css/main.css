@@ -6,25 +6,25 @@
   background-size: cover;
   background-position: center;
 }
-
 .content {
-  position: relative;
+  position: relative; /*used to be absolute*/
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
 }
-
 h1 {
   font-family: "Roboto Slab", serif;
   font-size: 5em;
   text-align: center;
   margin: 0;
 }
-
 p {
   color: #fff;
   font-size: 1em;
+}
+a {
+  text-decoration: none;
 }
 
 /* Slide 1 **********************************/
@@ -52,20 +52,16 @@ p {
   color: lightblue;
   text-decoration: none;
 }
+.chevron {
+/*  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 5%;*/
+}
+.chevron a {
+  color: green;
+}
 
-  .link {
-  }
-
-  /*Slide 1 Project Link*/
-  .project-arrow-div {
-    /*make the whole div a link*/
-  }
-  .projects-link {
-  }
-  #project-arrow {
-    width: 160px;
-    /*make it bounce*/
-  }
 
   /* Slide 2 **********************************/
   .slide-2 {
