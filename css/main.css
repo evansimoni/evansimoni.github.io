@@ -139,9 +139,12 @@ a:hover {
 /* Media Queries /////////////////////////////////////////*/
 @media only screen and (max-width: 767px) {
   .chevron {
-  position: relative;
-  left: 0;
-  right: 0;
-  bottom: 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .slide-3 h2 {
+  font-size: 1.4em;
 }
 }
