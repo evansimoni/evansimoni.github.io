@@ -17,16 +17,19 @@
 }
 h1 {
   font-family: "Roboto Slab", serif;
-  font-size: 5em;
+  font-size: 4.5em;
   text-align: center;
-  margin: 0;
+  margin: O;
+  padding-top: 5%;
 }
 p {
-  color: #fff;
   font-size: 1em;
 }
 a {
   text-decoration: none;
+}
+a:hover {
+  opacity: .75;
 }
 
 /* Slide 1 /////////////////////////////////////////*/
@@ -51,7 +54,7 @@ a {
   padding-right: 15px;
 }
 .slide-1 .fa {
-  font-size: 2em;
+  font-size: 1.6em;
 }
 .link a {
   color: #545D7A;
@@ -86,16 +89,18 @@ a {
   line-height: 1.6em;
   color: #FEFCCC;
 }
+.slide-2 ul {
+  padding: 0;
+}
 .slide-2 ul ul {
   list-style-type: none;
-  padding: 0;
   font-family: 'Raleway', sans-serif;
   font-size: 1.3em;
   line-height: 1.6em;
   color: #FEFCCC;
 }
 .slide-2 a {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
   font-weight: 700;
   color: #98D4BC;
 }
@@ -109,27 +114,21 @@ a {
     ), url('../img/wood-reduced.jpg')
 }
 
-.slide-3 h2 {
+.slide-3 h1 {
   color: #fff;
-  padding-left: 0;
-  padding-right: 0;
 }
-.slide-3 h3 {
+.slide-3 p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.6em;
+  color: #fff;
+  text-align: center;
+}
+.slide-3 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5em;
   color: #fff;
   padding-left: 0;
   padding-right: 0;
-}
-.slide-3 p {
-  font-family: 'Raleway', sans-serif;
-  max-width: 700px;
-  font-size: 1.3em;
-  line-height: 1.5em;
-  text-align: center;
-  margin: auto;
-}
-.email {
   text-align: center;
 }
-
