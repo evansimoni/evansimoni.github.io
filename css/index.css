@@ -138,17 +138,24 @@ a:visited {
   h1 {
     font-size: 2.5em;
   }
+  .slide-1 {
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.25), 
+      rgba(255, 255, 255, 0.25)
+      ), url('../img/view.jpg');
+    background-position: center-right;
+  }
   .headshot {
     max-width: 120px;
   }
-  .slide-1 {
-    background-image: linear-gradient(
-    rgba(255, 255, 255, 0.25), 
-    rgba(255, 255, 255, 0.25)
-    ), url('../img/view.jpg');
-    background-position: center-right;
+  .slide-1 .headline {
+    font-size: 1em;
+  }
+  .slide-1 .intro {
+    font-size: 1em;
+    line-height: 1.2em;
   }
   .slide-2 h2 {
     font-size: 1.2em;
   }
-}g
+}
