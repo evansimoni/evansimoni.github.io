@@ -1,72 +1,161 @@
-/*********************
-Overarching Styling
-**********************/
-a {
-  font-family: 'Montserrat', sans-serif;  text-decoration: none;
-  color: green;
-  transition: 200ms ease-in-out;
-  opacity: 1;
-
-}
-a:hover {
-  opacity: .8;
-  color: blue;
-  cursor: pointer;
-}
-a:active {
-  color: inherit;
-}
-
-/*******************************
-Project-Arrow
-********************************/
-.project-arrow-div {
-}
-#project-arrow {
-  margin: 0 auto;
+.background {
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
   position: relative;
-  bottom: 0;
-  text-align: center;
+  background-size: cover;
+  background-position: center;
 }
-/*******************************
-Text Styling
-********************************/
+.content {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 90%;
+  margin: auto;
+}
 h1 {
-  font-size: 450%;
+  font-family: "Crete Round", serif;
+  font-size: 4.5em;
+  line-height: 1em;
+  text-align: center;
+  padding-top: 12%;
+  padding-bottom: 15px;
+  margin: 0;
 }
 p {
-  font-size: 1.2em;
-  line-height: 1.5em;
-  color: white;
+  font-size: 1em;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  opacity: .75;
 }
 
-/*******************************
-Action Buttons
-********************************/
-.action-button {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex: 1;
-  flex: 1;
-  -webkit-justify-content: center;
-  justify-content: center;
-  margin: 2%;
+/* Slide 1 /////////////////////////////////////////*/
+.slide-1 {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.0), 
+    rgba(0, 0, 0, 0.0)
+    ), url('../img/view.jpg');
   text-align: center;
+}
+.slide-1 h1 {
+  color: #333;
+}
+.slide-1 .headline {
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+}
+.slide-1 .link {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.slide-1 .fa {
+  font-size: 1.6em;
+}
+.link a {
+  color: #545D7A;
+  text-decoration: none;
+}
+.chevron {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 5%;
+}
+.chevron a {
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  color: #B74F4C;
+}
+
+
+/* Slide 2 /////////////////////////////////////////*/
+.slide-2 {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.6)
+    ), url('../img/keyboard.jpg')
+}
+.slide-2 h1 {
+  color: #FEFCCC;
+}
+.slide-2 p {
+  font-family: 'Raleway', sans-serif; 
+  font-size: 1.3em;
+  line-height: 1.6em;
+  color: #FEFCCC;
+}
+.slide-2 ul {
+  text-align: center;
+  padding: 0;
+}
+.slide-2 ul ul {
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.6em;
+  color: #FEFCCC;
+}
+.slide-2 a {
+  /*text-decoration: underline;*/
+  font-weight: 700;
+  color: #98D4BC;
+}
+.contact {
+  position: relative;
   margin: auto;
-  width: 300px;
-  background-color: white;
-  opacity: .8;
-  box-shadow: 10px, 10px, 15px #000;
-  border-radius: 7px;
-  transition: 200ms ease-in-out;
+  text-align: center;
 }
-.action-button-icon {
-  font-size: 3em;
+.contact a {
+  font-family: 'Raleway';
+  text-transform: uppercase;
 }
-.action-button-text {
-  font-family: 'Montserrat', sans-serif;  text-decoration: none;
-  font-size: .8em;
-  color: black;
+
+
+/* Slide 3 /////////////////////////////////////////*/
+.slide-3 {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.1), 
+    rgba(0, 0, 0, 0.1)
+    ), url('../img/wood-reduced.jpg')
+}
+
+.slide-3 h1 {
+  color: #F7F6F4;
+}
+.slide-3 p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.6em;
+  color: #F7F6F4;
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+}
+.slide-3 h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  color: #F7F6F4;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+/* Media Queries /////////////////////////////////////////*/
+@media only screen and (max-width: 767px) {
+  .chevron {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .slide-3 h2 {
+  font-size: 1.2em;
+}
 }
