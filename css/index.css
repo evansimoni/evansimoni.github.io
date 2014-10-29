@@ -150,7 +150,9 @@ a:visited {
     max-width: 120px;
   }
   .slide-1 .headline {
-    font-size: .8em;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .slide-1 .intro p {
     font-size: 1em;
