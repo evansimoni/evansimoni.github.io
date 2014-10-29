@@ -59,7 +59,7 @@ GRID OF TWO
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 767px) {
 	.span_2_of_2 {
 		width: 100%; 
 	}
