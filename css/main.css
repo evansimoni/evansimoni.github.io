@@ -12,7 +12,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  max-width: 80%;
+  max-width: 90%;
   margin: auto;
 }
 h1 {
@@ -31,7 +31,10 @@ a {
 
 /* Slide 1 /////////////////////////////////////////*/
 .slide-1 {
-  background-image: url('../img/goldengate3-reduced.jpg');
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.0), 
+    rgba(0, 0, 0, 0.0)
+    ), url('../img/goldengate3-reduced.jpg');
   text-align: center;
 }
 .slide-1 h1 {
@@ -39,7 +42,7 @@ a {
 }
 .slide-1 .headline {
   font-family: 'Raleway', sans-serif;
-  color: #000;
+  color: #4E5756;
 }
 .slide-1 .link {
   font-family: 'Montserrat', sans-serif;
@@ -51,7 +54,7 @@ a {
   font-size: 2em;
 }
 .link a {
-  color: lightblue;
+  color: #545D7A;
   text-decoration: none;
 }
 .chevron {
@@ -61,41 +64,49 @@ a {
   bottom: 5%;*/
 }
 .chevron a {
-  color: green;
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  color: #B74F4C;
 }
 
 
 /* Slide 2 /////////////////////////////////////////*/
 .slide-2 {
   background-image: linear-gradient(
-    rgba(0, 0, 0, 0.4), 
-    rgba(0, 0, 0, 0.4)
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.6)
     ), url('../img/keyboard3.jpg')
 }
 .slide-2 h1 {
-  color: #fff;
+  color: #FEFCCC;
 }
 .slide-2 p {
   font-family: 'Raleway', sans-serif; 
   font-size: 1.3em;
-  line-height: 1.5em;
+  line-height: 1.6em;
+  color: #FEFCCC;
 }
-.slide-2 ul {
+.slide-2 ul ul {
   list-style-type: none;
-  text-decoration: none;
+  padding: 0;
   font-family: 'Raleway', sans-serif;
   font-size: 1.3em;
-  line-height: 1.5em;
+  line-height: 1.6em;
+  color: #FEFCCC;
 }
-
-.slide-2 li {
-  color: white;
+.slide-2 a {
+  text-decoration: underline;
+  font-weight: 700;
+  color: #98D4BC;
 }
 
 
 /* Slide 3 /////////////////////////////////////////*/
 .slide-3 {
-  background-image:url('../img/wood-reduced.jpg')
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.0), 
+    rgba(0, 0, 0, 0.0)
+    ), url('../img/wood-reduced.jpg')
 }
 
 .slide-3 h2 {
