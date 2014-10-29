@@ -135,6 +135,12 @@ a:visited {
 
 /* Media Queries /////////////////////////////////////////*/
 @media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 2.5em;
+  }
+  .headshot {
+    max-width: 120px;
+  }
   .slide-1 {
     background-image: linear-gradient(
     rgba(255, 255, 255, 0.25), 
