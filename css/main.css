@@ -12,6 +12,8 @@
   right: 0;
   bottom: 0;
   left: 0;
+  max-width: 80%;
+  margin: auto;
 }
 h1 {
   font-family: "Roboto Slab", serif;
@@ -27,7 +29,7 @@ a {
   text-decoration: none;
 }
 
-/* Slide 1 **********************************/
+/* Slide 1 /////////////////////////////////////////*/
 .slide-1 {
   background-image: url('../img/goldengate3-reduced.jpg');
   text-align: center;
@@ -63,66 +65,60 @@ a {
 }
 
 
-  /* Slide 2 **********************************/
-  .slide-2 {
-    background-image: linear-gradient(
-      rgba(0, 0, 0, 0.4), 
-      rgba(0, 0, 0, 0.4)
-      ), url('../img/keyboard3.jpg')
-  }
-  .slide-2 .hsContent {
-    top: 20%;
-  }
-  .slide-2 h2 {
-    color: #fff;
-    position: relative;
-  }
+/* Slide 2 /////////////////////////////////////////*/
+.slide-2 {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.4), 
+    rgba(0, 0, 0, 0.4)
+    ), url('../img/keyboard3.jpg')
+}
+.slide-2 h1 {
+  color: #fff;
+}
+.slide-2 p {
+  font-family: 'Raleway', sans-serif; 
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+.slide-2 ul {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
 
-  /*Slide 2 Styling */
-  .slide-2 ul {
-    list-style-type: none;
-  }
-  .slide-2 .about-projects {
-    font-size: 1.3em;
-    line-height: 1.5em;
-    margin: auto;
-  }
-  .slide-2 p {
-    font-size: .8em;
-  }
-  .slide-2 li {
-    font-size: 1.2em;
-    color: white;
-    text-decoration: underline;
-  }
+.slide-2 li {
+  color: white;
+}
 
 
-  /* Slide 3 **********************************/
-  .slide-3 {
-    background-image:url('../img/wood-reduced.jpg')
-  }
+/* Slide 3 /////////////////////////////////////////*/
+.slide-3 {
+  background-image:url('../img/wood-reduced.jpg')
+}
 
-  .slide-3 h2 {
-    color: #fff;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .slide-3 h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
-    color: #fff;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .slide-3 p {
-    font-family: 'Raleway', sans-serif;
-    max-width: 700px;
-    font-size: 1.3em;
-    line-height: 1.5em;
-    text-align: center;
-    margin: auto;
-  }
-  .email {
-    text-align: center;
-  }
+.slide-3 h2 {
+  color: #fff;
+  padding-left: 0;
+  padding-right: 0;
+}
+.slide-3 h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  color: #fff;
+  padding-left: 0;
+  padding-right: 0;
+}
+.slide-3 p {
+  font-family: 'Raleway', sans-serif;
+  max-width: 700px;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  text-align: center;
+  margin: auto;
+}
+.email {
+  text-align: center;
+}
 
