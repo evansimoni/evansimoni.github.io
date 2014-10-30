@@ -100,32 +100,32 @@ a:visited {
 
 
 /* Slide 2 /////////////////////////////////////////*/
-.slide-2 {
+.projects {
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.45), 
     rgba(0, 0, 0, 0.45)
     ), url('../img/wood-reduced.jpg')
 }
-.slide-2 h1 {
+.projects h1 {
   color: #F7F6F4;
   padding-top: 10%;
 }
-.slide-2 ul {
+.projects ul {
   text-align: center;
   padding: 0;
 }
-.slide-2 ul ul {
+.projects ul ul {
   list-style-type: none;
   font-family: 'Raleway', sans-serif;
   font-size: 1.3em;
   line-height: 1.6em;
   color: #F7F6F4;
 }
-.slide-2 a {
+.projects a {
   font-weight: 700;
   color: #98D4BC;
 }
-.slide-2 h2 {
+.projects h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2em;
   color: #F7F6F4;
@@ -157,7 +157,7 @@ a:visited {
     font-size: .9em;
     line-height: 1.1em;
   }
-  .slide-2 h2 {
+  .projects h2 {
     font-size: 1.2em;
   }
 }
