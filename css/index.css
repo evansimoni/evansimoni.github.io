@@ -1,10 +1,6 @@
-.background {
-  min-height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  position: relative;
-  background-size: cover;
-  background-position: center;
+body { 
+  margin:0;
+  padding-top: 0;
 }
 .content {
   position: relative;
@@ -17,7 +13,6 @@
 }
 h1 {
   font-family: "Crete Round", serif;
-  font-size: 4.5em;
   line-height: 1em;
   text-align: center;
   padding-bottom: 15px;
@@ -37,17 +32,23 @@ a:visited {
 }
 
 /* Slide 1 /////////////////////////////////////////*/
-.slide-1 {
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.0), 
-    rgba(0, 0, 0, 0.0)
-    ), url('../img/view.jpg');
+#home {
+  background: url("../img/view.jpg");
+  background-attachment: fixed;
+  background-clip: initial;
+  background-origin: initial;
+  background-size: cover;
+  background-position: 100% 0;  
+  background-repeat: no-repeat; 
+  min-height: 100vh;
+  position: relative; 
   text-align: center;
 }
 .slide-1 h1 {
+  font-size: 6em;
   color: #333;
   padding-top: 2%;
-
+  text-shadow: 2px 2px #545D7A;
 }
 .slide-1 .headline {
   font-family: 'Raleway', sans-serif;
@@ -101,15 +102,26 @@ a:visited {
 
 
 /* Slide 2 /////////////////////////////////////////*/
-.projects {
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.45), 
-    rgba(0, 0, 0, 0.45)
-    ), url('../img/wood-reduced.jpg')
+#projects {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+    ), url('../img/wood-reduced.jpg');
+  /*background-attachment: fixed;*/
+  background-clip: initial;
+  background-origin: initial;
+  background-size: cover;
+  background-position: 100% 0;  
+  background-repeat: no-repeat; 
+  min-height: 100vh;
+  position: relative; 
+  text-align: center;
 }
 .projects h1 {
-  color: #F7F6F4;
+  font-size: 5em;
+  color: #EADEB4;
   padding-top: 10%;
+  text-shadow: 2px 2px #35434E;
 }
 .projects ul {
   text-align: center;
@@ -120,16 +132,19 @@ a:visited {
   font-family: 'Raleway', sans-serif;
   font-size: 1.3em;
   line-height: 1.6em;
-  color: #F7F6F4;
+  color: #A6CDCE;
+}
+.projects ul a {
+  font-size: 1.7em;
 }
 .projects a {
   font-weight: 700;
-  color: #98D4BC;
+  color: #EADEB4;
 }
 .projects h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2em;
-  color: #F7F6F4;
+  color: #EADEB4;
   padding-left: 0;
   padding-right: 0;
   text-align: center;
@@ -140,12 +155,12 @@ a:visited {
   h1 {
     font-size: 3em;
   }
-  .slide-1 {
+  #home {
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.25), 
       rgba(255, 255, 255, 0.25)
       ), url('../img/view.jpg');
-    background-position: center-right;
+    background-position: center;
   }
   .headshot {
     max-width: 120px;

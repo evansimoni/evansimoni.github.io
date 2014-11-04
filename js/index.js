@@ -1,5 +1,4 @@
-console.log('index.js loaded')
-//Parallax effect
+// Parallax effect
 
 $objWindow = $(window);
 $('div[data-type="background"]').each(function(){
