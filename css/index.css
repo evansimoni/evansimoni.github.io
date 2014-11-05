@@ -98,7 +98,7 @@ a:visited {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 55px;
+  bottom: 70px;
 }
 .chevron a {
   font-family: 'Raleway';
@@ -167,7 +167,7 @@ a:visited {
       rgba(255, 255, 255, 0.25), 
       rgba(255, 255, 255, 0.25)
       ), url('../img/view.jpg');
-    background-position: center;
+    /*background-position: center;*/
   }
   .headshot {
     margin-top: 15px;
