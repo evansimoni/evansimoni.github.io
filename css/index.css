@@ -111,7 +111,7 @@ a:visited {
   background-position: 100% 0;  
   background-repeat: no-repeat; 
   /* adjust as necessary */
-  min-height: 460px;
+  min-height: 480px;
   position: relative;
 }
 .icons {
@@ -186,7 +186,11 @@ a:visited {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 70px;
+  bottom: 60px;
+}
+.email p, h2 {
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 /* Media Queries /////////////////////////////////////////*/
@@ -201,7 +205,7 @@ a:visited {
       rgba(255, 255, 255, 0.25), 
       rgba(255, 255, 255, 0.25)
       ), url('../img/view-mobile.jpg');
-    background-position: center;
+    background-position: right;
   }
   .headshot {
     margin-top: 15px;
