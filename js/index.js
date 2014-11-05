@@ -1,5 +1,4 @@
 // Parallax effect
-
 $objWindow = $(window);
 $('div[data-type="background"]').each(function(){
   var $bgObj = $(this);
@@ -13,8 +12,7 @@ $('div[data-type="background"]').each(function(){
 });
 
 // Animates scroll waypoints
-
 $(".projects-link").on("click", function(e) {
-    $('body').animate({scrollTop:$("#projects").offset().top},500);
+    $('body').animate({scrollTop:$("#about").offset().top}, 500);
     return false;
 });
