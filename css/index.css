@@ -236,6 +236,7 @@ a:visited {
   .about {
     font-size: 1.1em;
     line-height: 1.3em;
+    text-align: center;
   }
   .about-div {
     margin-top: 15px;
