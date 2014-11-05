@@ -205,7 +205,7 @@ a:visited {
       rgba(255, 255, 255, 0.25), 
       rgba(255, 255, 255, 0.25)
       ), url('../img/view-mobile.jpg');
-    background-position: right;
+    background-position: center center;
   }
   .headshot {
     margin-top: 15px;
