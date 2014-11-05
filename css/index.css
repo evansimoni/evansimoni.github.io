@@ -124,8 +124,6 @@ a:visited {
   line-height: 1.6em;
   color: #fff;
   text-align: justify;
-  padding-left: 5%;
-  padding-right: 5%;
   position: relative;
 }
 .about a {
@@ -231,6 +229,8 @@ a:visited {
     font-size: 1.3em;
     line-height: 1.5em;
     text-align: justify;
+    margin-left: 5px;
+    max-height: 5px;
   }
   .about-div {
     margin-top: 15px;
