@@ -15,7 +15,6 @@ h1 {
   font-family: "Rambla", sans-serif;
   line-height: 1em;
   text-align: center;
-  padding-bottom: 15px;
   margin: 0;
 }
 p {
@@ -183,9 +182,11 @@ a:visited {
     font-size: .9em;
     line-height: 1.1em;
   }
-  .linkedin {
-    margin-top: 15px;  
-  }
+  .slide-1 .button {
+    padding: 5px 35px;
+    margin-left: 4px;
+    margin-right: 4px;  
+  } 
   .projects h2 {
     font-size: 1.2em;
   }
