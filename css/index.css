@@ -162,7 +162,7 @@ a:visited {
 /* Media Queries /////////////////////////////////////////*/
 @media only screen and (max-width: 767px) {
   .slide-1 h1, .projects h1 {
-    font-size: 3.5em;
+    font-size: 3.3em;
   }
   #home {
     background-image: linear-gradient(
@@ -183,9 +183,8 @@ a:visited {
     font-size: .9em;
     line-height: 1.1em;
   }
-  .slide-1 .button {
-    margin-left: 5px;
-    margin-right: 5px;  
+  .linkedin {
+    margin-top: 15px;  
   }
   .projects h2 {
     font-size: 1.2em;
