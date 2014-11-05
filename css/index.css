@@ -3,7 +3,7 @@ body {
   padding-top: 0;
 }
 .content {
-  position: relative;
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
@@ -66,7 +66,6 @@ a:visited {
   color: #333;
   margin-top: 0px;
   margin-bottom: 10px;
-  text-shadow: 0px 0px 34px #545D7A;
 }
 .slide-1 .intro {
   font-family: 'Montserrat', sans-serif; 
@@ -96,10 +95,10 @@ a:visited {
   font-size: 1.6em;
 }
 .chevron {
-  position: relative;
+  position: absolute;
   left: 0;
   right: 0;
-  bottom: 1%;
+  bottom: 0px;
 }
 .chevron a {
   font-family: 'Raleway';
