@@ -220,6 +220,9 @@ a:visited {
   #about {
     overflow: auto;
   }
+  .icons {
+    display: none;
+  }
   .about {
     font-size: 1.2em;
     line-height: 1.4em;
