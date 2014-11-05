@@ -204,8 +204,8 @@ a:visited {
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.25), 
       rgba(255, 255, 255, 0.25)
-      ), url('../img/view-mobile.jpg');
-    background-position: center top;
+      ), url('../img/view.jpg');
+    background-position: center center;
   }
   .headshot {
     margin-top: 15px;
