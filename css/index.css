@@ -99,7 +99,7 @@ a:visited {
 /* About ///////////////////////////////////////////*/
 #about {
   background: linear-gradient(
-    rgba(0, 0, 0, .9), 
+    rgba(0, 0, 0, .6), 
     rgba(0, 0, 0, .3)
     ), url('../img/wood-reduced.jpg');
   background-attachment: fixed;
@@ -108,8 +108,9 @@ a:visited {
   background-size: cover;
   background-position: 100% 0;  
   background-repeat: no-repeat; 
-  min-height: 60vh;
-  position: relative; 
+  /* adjust as necessary */
+  min-height: 440px;
+  position: relative;
 }
 .icons {
   text-align: center;
@@ -147,6 +148,9 @@ a:visited {
   min-height: 100vh;
   position: relative; 
   text-align: center;
+}
+.projects {
+  max-width: 800px;
 }
 .projects h1 {
   font-size: 5em;
@@ -187,6 +191,7 @@ a:visited {
   .slide-1 h1, .projects h1 {
     font-size: 3.3em;
   }
+  /* home slide */
   #home {
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.25), 
@@ -210,6 +215,11 @@ a:visited {
     margin-left: 4px;
     margin-right: 4px;  
   } 
+  /* about slide */
+  .icons {
+    display: none;
+  }
+  /* projects slide */ 
   .projects h2 {
     font-size: 1.2em;
   }
