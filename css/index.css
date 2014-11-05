@@ -86,7 +86,7 @@ a:visited {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   display: inline-block;
-  padding: 5px 40px;
+  padding: 5px 40px 3px;
   margin-left: 20px;
   margin-right: 20px;  
   border: 1px solid #545D7A;
@@ -183,11 +183,15 @@ a:visited {
     line-height: 1.1em;
   }
   .slide-1 .button {
-    padding: 5px 35px;
+    padding: 5px 30px 3px;
     margin-left: 4px;
     margin-right: 4px;  
   } 
   .projects h2 {
     font-size: 1.2em;
+  }
+  .projects ul ul {
+    font-size: 1.1em;
+    line-height: 1.4em;
   }
 }
