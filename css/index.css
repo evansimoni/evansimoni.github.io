@@ -251,7 +251,7 @@ a:visited {
     }
 }
 /*add height media query*/
-@media only screen and (max-height: 480px) {
+@media only screen and (max-height: 400px) {
     .chevron {
         display: none;
     }
