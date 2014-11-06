@@ -219,8 +219,11 @@ a:visited {
     /* about slide */
     
     #about {
+        background: url('../img/darkwood-mobile.jpg');
         overflow: hidden;
-        min-height: 100vh;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .icons {
         display: none;
@@ -248,7 +251,7 @@ a:visited {
     }
 }
 /*add height media query*/
-@media only screen and (max-height: 500px) {
+@media only screen and (max-height: 480px) {
     .chevron {
         display: none;
     }
