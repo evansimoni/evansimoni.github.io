@@ -197,7 +197,10 @@ a:visited {
     }
     /* home slide */
     #home {
+        background: url('http://m.rgbimg.com/cache1nZZhF/users/m/mz/mzacha/600/mn5OszS.jpg');
         background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .headshot {
         margin-top: 15px;
