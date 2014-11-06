@@ -236,7 +236,9 @@ a:visited {
         margin-top: 15px;
     }
     /* projects slide */
-    
+    #projects {
+        background-position: center top;
+    }
     .projects ul ul {
         font-size: 1.1em;
         line-height: 1.4em;
