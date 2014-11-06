@@ -197,7 +197,7 @@ a:visited {
     }
     /* home slide */
     #home {
-        background: url('http://m.rgbimg.com/cache1nZZhF/users/m/mz/mzacha/600/mn5OszS.jpg');
+        background: url('../img/cloud.jpg');
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -222,7 +222,7 @@ a:visited {
     /* about slide */
     
     #about {
-        background: url('../img/darkwood-mobile.jpg');
+        background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../img/darkwood-mobile.jpg');
         overflow: hidden;
         height: 100vh;
         background-repeat: no-repeat;
