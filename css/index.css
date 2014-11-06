@@ -1,255 +1,248 @@
-body { 
-  margin:0;
-  padding-top: 0;
+body {
+    margin: 0;
+    padding-top: 0;
 }
 .content {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  max-width: 700px;
-  margin: auto;
-  padding-left: .5%;
-  padding-right: .5%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 700px;
+    margin: auto;
+    padding-left: .5%;
+    padding-right: .5%;
 }
 h1 {
-  font-family: "Rambla", sans-serif;
-  line-height: 1em;
-  text-align: center;
-  margin: 0;
+    font-family: "Rambla", sans-serif;
+    line-height: 1em;
+    text-align: center;
+    margin: 0;
 }
 p {
-  font-size: 1em;
+    font-size: 1em;
 }
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 a:hover {
-  opacity: .75;
+    opacity: .75;
 }
 a:hover .button {
-  background-color: rgba(255,255,255,0.25);
-  opacity: 1;
+    background-color: rgba(255, 255, 255, 0.25);
+    opacity: 1;
 }
 a:visited {
-  color: inherit;
+    color: inherit;
 }
-
 /* Slide 1 /////////////////////////////////////////*/
+
 #home {
-  background: url("../img/view.jpg");
-  background-attachment: fixed;
-  background-clip: initial;
-  background-origin: initial;
-  background-size: cover;
-  background-position: 100% 0;  
-  background-repeat: no-repeat; 
-  min-height: 100vh;
-  position: relative; 
-  text-align: center;
+    background: url("../img/view.jpg");
+    background-attachment: fixed;
+    background-clip: initial;
+    background-origin: initial;
+    background-size: cover;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+    text-align: center;
 }
 .headshot {
-  margin: 4% 0% 2%;
-  border-radius: 50%;
-  border: 3px solid #F7F6F4;
-  max-width: 170px;
-  box-shadow: 0px 0px 2px #545D7A;
+    margin: 4% 0% 2%;
+    border-radius: 50%;
+    border: 3px solid #F7F6F4;
+    max-width: 170px;
+    box-shadow: 0px 0px 2px #545D7A;
 }
 .slide-1 h1 {
-  font-size: 6em;
-  color: #333;
-  text-shadow: 1px 1px 1px #545D7A;
+    font-size: 6em;
+    color: #333;
+    text-shadow: 1px 1px 1px #545D7A;
 }
 .slide-1 .headline {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500;
-  font-size: 1.2em;
-  color: #333;
-  margin-top: 0px;
-  margin-bottom: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 0px;
+    margin-bottom: 40px;
 }
 .slide-1 .button {
-  color: #545D7A;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-  display: inline-block;
-  padding: 5px 25px 3px;
-  margin-left: 15px;
-  margin-right: 15px;
-  border: 1px solid #545D7A;
-  border-radius: 5px;
+    color: #545D7A;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    padding: 5px 25px 3px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px solid #545D7A;
+    border-radius: 5px;
 }
 .button .fa {
-  font-size: 1.6em;
+    font-size: 1.6em;
 }
 .chevron {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 70px;
+    position: absolute;
+    left: 50%;
+    bottom: 70px;
 }
 .chevron .fa {
-  font-size: 3em;
+    font-size: 3em;
 }
 .chevron a {
-  font-family: 'Raleway';
-  text-transform: uppercase;
-  color: #B74F4C;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    color: #B74F4C;
 }
 
 /* About ///////////////////////////////////////////*/
+
 #about {
-  background: linear-gradient(
-    rgba(0, 0, 0, .6), 
-    rgba(0, 0, 0, .3)
-    ), url('../img/wood-reduced.jpg');
-  background-attachment: fixed;
-  background-clip: initial;
-  background-origin: initial;
-  background-size: cover;
-  background-position: 100% 0;  
-  background-repeat: no-repeat; 
-  /* adjust as necessary */
-  min-height: 480px;
-  position: relative;
+    background: linear-gradient( rgba(0, 0, 0, .8), rgba(0, 0, 0, 0)), url('../img/darkwood-crop.jpg');
+    background-attachment: fixed;
+    background-clip: initial;
+    background-origin: initial;
+    background-size: cover;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    /* adjust as necessary */
+    
+    min-height: 480px;
+    position: relative;
 }
 .icons {
-  text-align: center;
-  font-size: 3em;
+    text-align: center;
+    font-size: 3em;
+    position: center;
 }
 .about {
-  font-family: 'Montserrat', sans-serif; 
-  font-size: 1.3em;
-  line-height: 1.6em;
-  color: #FFFFF0;
-  text-align: justify;
-  margin-left: 15px;
-  margin-right: 15px;
-  position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.6em;
+    color: #FFFFF0;
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
 }
 .about a {
-  color: #9ECCAD;
+    color: #9ECCAD;
 }
 .about-div {
-  margin-top: 4%;
+    margin-top: 4%;
 }
-
 /* Slide 2/Projects /////////////////////////////////////////*/
+
 #projects {
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.8), 
-    rgba(0, 0, 0, 0.6)
-    ), url('../img/water.jpg');
-  background-attachment: fixed;
-  background-clip: initial;
-  background-origin: initial;
-  background-size: cover;
-  background-position: 100% 0;  
-  background-repeat: no-repeat; 
-  min-height: 100vh;
-  position: relative; 
-  text-align: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../img/water.jpg');
+    background-attachment: fixed;
+    background-clip: initial;
+    background-origin: initial;
+    background-size: cover;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+    text-align: center;
 }
 .projects h1 {
-  font-size: 5em;
-  color: #EADEB4;
-  padding: 4% 0 4%;
-  text-shadow: 1px 1px 1px #333;
+    font-size: 5em;
+    color: #EADEB4;
+    padding: 4% 0 4%;
+    text-shadow: 1px 1px 1px #333;
 }
 .projects ul {
-  text-align: center;
-  padding: 0;
+    text-align: center;
+    padding: 0;
 }
 .projects ul ul {
-  list-style-type: none;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.3em;
-  line-height: 1.6em;
-  color: #A6CDCE;
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.6em;
+    color: #A6CDCE;
 }
 .projects ul a {
-  font-size: 1.7em;
+    font-size: 1.7em;
 }
 .projects a {
-  font-weight: 700;
-  color: #EADEB4;
+    font-weight: 700;
+    color: #EADEB4;
 }
 .email {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.3em;
-  font-weight: 500;
-  color: #EADEB4;
-  padding-left: 0;
-  padding-right: 0;
-  text-align: center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #EADEB4;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 60px;
 }
 .email p, h2 {
-  margin-top: 0px;
-  margin-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
-
 /* Media Queries /////////////////////////////////////////*/
+
 @media only screen and (max-width: 600px) {
-  .slide-1 h1, .projects h1 {
-    font-size: 3.3em;
-  }
-
-  /* home slide */
-  #home {
-    background-image: linear-gradient(
-      rgba(255, 255, 255, 0.25), 
-      rgba(255, 255, 255, 0.25)
-      ), url('../img/view.jpg');
-    background-position: center bottom;
-  }
-  .headshot {
-    margin-top: 15px;
-    max-width: 120px;
-    border: 2px solid #F7F6F4;
-  }
-  .slide-1 .headline {
-    font-size: .9em;
-    margin-top: 10px;
-  }
-  .slide-1 .intro p {
-    font-size: .9em;
-    line-height: 1.1em;
-  }
-  .slide-1 .button {
-    margin-left: 4px;
-    margin-right: 4px;  
-  } 
-
-  /* about slide */
-  #about {
-    overflow: hidden;
-    min-height: 100vh;
-  }
-  .icons {
-    display: none;
-  }
-  .about {
-    font-size: 1.1em;
-    line-height: 1.3em;
-    text-align: left;
-  }
-  .about-div {
-    margin-top: 15px;
-  }
-
-  /* projects slide */ 
-  .projects ul ul {
-    font-size: 1.1em;
-    line-height: 1.4em;
-  }
-  .email {
-    font-size: .8em;
-    bottom: 10px;
-  }
+    .slide-1 h1, .projects h1 {
+        font-size: 3.3em;
+    }
+    /* home slide */
+    
+    #home {
+        background-image: linear-gradient( rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url('../img/view.jpg');
+        background-position: center bottom;
+    }
+    .headshot {
+        margin-top: 15px;
+        max-width: 120px;
+        border: 2px solid #F7F6F4;
+    }
+    .slide-1 .headline {
+        font-size: .9em;
+        margin-top: 10px;
+    }
+    .slide-1 .intro p {
+        font-size: .9em;
+        line-height: 1.1em;
+    }
+    .slide-1 .button {
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    /* about slide */
+    
+    #about {
+        overflow: hidden;
+        min-height: 100vh;
+    }
+    .icons {
+        display: none;
+    }
+    .about {
+        font-size: 1.1em;
+        line-height: 1.3em;
+        text-align: left;
+    }
+    .about-div {
+        margin-top: 15px;
+    }
+    /* projects slide */
+    
+    .projects ul ul {
+        font-size: 1.1em;
+        line-height: 1.4em;
+    }
+    .email {
+        font-size: .8em;
+        bottom: 10px;
+    }
 }
 /*add height media query*/
