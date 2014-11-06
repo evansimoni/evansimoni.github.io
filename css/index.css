@@ -101,15 +101,14 @@ a:visited {
 /* About ///////////////////////////////////////////*/
 
 #about {
-    background: linear-gradient( rgba(0, 0, 0, .8), rgba(0, 0, 0, 0)), url('../img/darkwood-crop.jpg');
-    background-attachment: fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../img/darkwood-crop.jpg');
+    background-attachment: scroll;
+    box-shadow: 0px -5px 10px 0px rgba(50, 50, 50, 0.75);
     background-clip: initial;
     background-origin: initial;
     background-size: cover;
     background-position: 100% 0;
     background-repeat: no-repeat;
-    /* adjust as necessary */
-    
     min-height: 480px;
     position: relative;
 }
@@ -137,8 +136,9 @@ a:visited {
 /* Slide 2/Projects /////////////////////////////////////////*/
 
 #projects {
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../img/water.jpg');
+    background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .8)), url('../img/water.jpg');
     background-attachment: fixed;
+    box-shadow: inset 0px 5px 20px 0px rgba(0,0,0,1);
     background-clip: initial;
     background-origin: initial;
     background-size: cover;
@@ -151,7 +151,7 @@ a:visited {
 .projects h1 {
     font-size: 5em;
     color: #EADEB4;
-    padding: 4% 0 4%;
+    padding: 10% 0 4%;
     text-shadow: 1px 1px 1px #333;
 }
 .projects ul {
