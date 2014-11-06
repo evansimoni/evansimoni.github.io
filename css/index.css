@@ -85,7 +85,8 @@ a:visited {
 }
 .chevron {
     position: absolute;
-    left: 50%;
+    left: 0;
+    right: 0;
     bottom: 70px;
 }
 .chevron .fa {
