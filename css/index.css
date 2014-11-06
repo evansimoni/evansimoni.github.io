@@ -103,7 +103,7 @@ a:visited {
 #about {
     background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, .5)), url('../img/darkwood.jpg');
     background-attachment: scroll;
-    box-shadow: 0px -5px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
     background-clip: initial;
     background-origin: initial;
     background-size: cover;
