@@ -157,7 +157,7 @@ a .button {
 .projects h1 {
     font-size: 5em;
     color: #EADEB4;
-    padding: 15px 0 1%;
+    padding: 50px 0 1%;
     text-shadow: 1px 1px 1px #222;
 }
 .projects ul {
@@ -247,8 +247,11 @@ a .button {
     }
     /* projects slide */
     #projects {
-        background: linear-gradient( rgba(0, 0, 0, .1), rgba(0, 0, 0, .2)), url('../img/water.jpg');
+        background: linear-gradient( rgba(0, 0, 0, .2), rgba(0, 0, 0, .3)), url('../img/water.jpg');
         background-position: center top;
+    }
+    .projects h1 {
+        padding: 15px 0 1%;
     }
     .projects ul ul {
         font-size: 1.1em;
