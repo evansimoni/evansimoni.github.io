@@ -203,8 +203,8 @@ a .button {
     }
     /* home slide */
     #home {
-        background: url('../img/cloud.jpg');
-        background-position: center center;
+        background: url('../img/cloud2.jpg');
+        background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
     }
