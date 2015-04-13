@@ -6,16 +6,11 @@ h1 {
   line-height: 0em;
   color: #37392E;
 }
-h2 {
-  font-family: 'Cabin', sans-serif;
-  font-size: 1.3em;
-  color: #37392E;
-  font-weight: bold;
-}
 h3 {
- font-family: 'Lato', sans-serif;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: bold;
  letter-spacing: .03em;
- margin-top: 8px;
+ margin-top: 12px;
  margin-bottom: 8px;
 }
 h4 {
@@ -26,26 +21,27 @@ h4 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-h5 {
-  font-size: 1.5em;
-  text-align: right-justify;
-  letter-spacing: .3em;
-}
 
 p {
-  font-family: 'Cabin', sans-serif;
-  letter-spacing: .02em;
+  font-family: 'Open Sans', sans-serif;
   color: #37392E;
   margin-top: 0;
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.5em;
+}
+
+li, ul {
+  font-family: 'Open Sans', sans-serif;
+  color: #37392E;
+  margin-top: 0;
+  list-style-type: none;
+  padding-left: 0;
+  line-height: .5em;
 }
 
 a {
   text-decoration: none;
-  -o-transition: .4s;
-  -ms-transition: .4s;
-  -moz-transition: .4s;
-  -webkit-transition: .4s;
-  transition: .4s;
   color: #28AFB0;
 }
 a:hover {
@@ -57,27 +53,14 @@ body {
   background-color: #ffffff;
 }
 
-
 .content {
   max-width: 1200px;
   margin: auto;
-  padding: 5%;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-bottom: 1%;
+  padding-right: 5%;
 }
-
-
-.icons {
-  text-align: right;
-}
-.icons img {
-  width: 20px;
-}
-.icons a {
-  color: #37392E;
-}
-.icons a:hover {
-  color: #28AFB0;
-}
-
 
 img {
   max-width: 100%;
@@ -100,10 +83,6 @@ img:hover {
   -moz-filter: saturate(125%);
   -o-filter: saturate(125%);
   -ms-filter: saturate(125%);
-}
-
-.contact {
-  text-align: center;
 }
 
 
