@@ -2,24 +2,28 @@
 h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 900;
-  font-size: 3em;
-  line-height: 0em;
+  font-size: 4.6em;
+  line-height: .0em;
   color: #37392E;
+  text-align: center;
 }
+h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: .9em;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
 h3 {
  font-family: 'Open Sans', sans-serif;
  font-weight: bold;
  letter-spacing: .03em;
  margin-top: 12px;
  margin-bottom: 8px;
-}
-h4 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 p {
@@ -54,7 +58,7 @@ body {
 }
 
 .content {
-  max-width: 1200px;
+  max-width: 600px;
   margin: auto;
   padding-top: 1%;
   padding-left: 5%;
@@ -63,27 +67,9 @@ body {
 }
 
 img {
-  max-width: 100%;
-  opacity: .9;
-  filter: saturate(100%);
-  -webkit-filter: saturate(100%);
-  -moz-filter: saturate(100%);
-  -o-filter: saturate(100%);
-  -ms-filter: saturate(100%);
-  -o-transition: .4s;
-  -ms-transition: .4s;
-  -moz-transition: .4s;
-  -webkit-transition: .4s;
-  transition: .4s;
-  border-radius: 2px;
-}
-img:hover {
-  opacity: 1;
-  filter: saturate(125%);
-  -webkit-filter: saturate(125%);
-  -moz-filter: saturate(125%);
-  -o-filter: saturate(125%);
-  -ms-filter: saturate(125%);
+  padding-top: 2em;
+  padding-bottom: 2em;
+  width: 100%;
 }
 
 
