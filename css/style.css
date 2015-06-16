@@ -54,6 +54,7 @@ a:hover {
 /*  POSITIONING  +  CONTENT  */
 body {
   background-color: #ffffff;
+  padding: 24px;
 }
 
 .content {
