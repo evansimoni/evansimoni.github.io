@@ -6,7 +6,6 @@ h1 {
   line-height: 0px;
   text-align: center;
   color: #31373B;
-  padding-top: 48px;
 }
 h4 {
   font-family: 'Lato', sans-serif;
@@ -29,7 +28,6 @@ p {
 
 h2 {
   padding-top: 24px;
-  padding-bottom: 48px;
   color: #31373B;
   text-align: justify;
 }
@@ -53,7 +51,7 @@ a:hover {
 /*  POSITIONING  +  CONTENT  */
 body {
   background-color: #ffffff;
-  padding: 24px;
+  padding: 48px;
 }
 
 .content {
@@ -69,14 +67,19 @@ img {
 
 
 /*  MEDIA QUERIES  */
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 24px;
+  }
   h1 {
     font-size: 3.4em;
+    padding-top: 0px;
   }
-  h1, h4 {
-    text-align: center;
+  h4 {
+    padding-bottom: 0px;
   }
-  .icons {
-    text-align: center;
+  h2 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
