@@ -5,8 +5,8 @@ h1 {
   font-size: 4.6em;
   line-height: 0px;
   text-align: center;
-  color: #3d464d;
-  padding-top: 24px;
+  color: #31373B;
+  padding-top: 48px;
 }
 h4 {
   font-family: 'Lato', sans-serif;
@@ -14,21 +14,23 @@ h4 {
   text-transform: uppercase;
   letter-spacing: 1.3px;
   text-align: center;
-  color: #3d464d;
+  color: #31373B;
+  padding-bottom: 12px;
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
-  line-height: 1.6em;
-  color: #3d464d;
+  line-height: 1.7em;
+  color: #31373B;
   margin-top: 0;
   list-style-type: none;
+  padding-top: 8px;
 }
 
 h2 {
-  padding-top: 12px;
-  padding-bottom: 24px;
-  color: #3d464d;
+  padding-top: 24px;
+  padding-bottom: 48px;
+  color: #31373B;
   text-align: justify;
 }
 h2 a {
@@ -42,11 +44,11 @@ h2:after {
 
 a {
   text-decoration: underline;
-  color: #3d464d;
+  color: #31373B;
 }
 
 a:hover {
-  color: #99cc33;
+  color: #C7805A;
 }
 
 /*  POSITIONING  +  CONTENT  */
