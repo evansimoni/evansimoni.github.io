@@ -2,16 +2,18 @@
 h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 900;
-  font-size: 4.6em;
+  font-size: 5em;
   line-height: 0px;
   text-align: center;
   color: #31373B;
+  padding-top: 36px;
 }
 h4 {
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: 1.3px;
+  font-size: 1.3em;
+  letter-spacing: 2px;
   text-align: center;
   color: #31373B;
   padding-bottom: 12px;
@@ -19,7 +21,7 @@ h4 {
 
 p {
   font-family: 'Open Sans', sans-serif;
-  line-height: 1.7em;
+  line-height: 2em;
   color: #31373B;
   margin-top: 0;
   list-style-type: none;
@@ -62,13 +64,26 @@ body {
   padding: 48px;
 }
 
+.top {
+  background: url(../img/evan.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
 .content {
-  max-width: 600px;
+  max-width: 1200px;
   margin: auto;
 }
 
 .divider {
   border-top: 1px solid #e6e6e6;
+  height: 40px;
+  margin-top: 48px;
+}
+.spacer {
   height: 40px;
   margin-top: 48px;
 }
@@ -80,10 +95,8 @@ img {
 }
 
 
-
-
 /*  MEDIA QUERIES  */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   body {
     padding: 24px;
   }
