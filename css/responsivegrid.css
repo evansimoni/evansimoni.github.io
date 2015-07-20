@@ -49,19 +49,19 @@
 
 @media only screen and (max-width: 767px) {
   .span_2_of_2 {
-    width: 96%; 
+    width: 98%; 
   }
   .span_1_of_2 {
-    width: 96%; 
+    width: 98%; 
   }
 
   .span_3_of_3 {
-    width: 96%; 
+    width: 98%; 
   }
   .span_2_of_3 {
-    width: 96%; 
+    width: 98%; 
   }
   .span_1_of_3 {
-    width: 96%;
+    width: 98%;
   }
 }
