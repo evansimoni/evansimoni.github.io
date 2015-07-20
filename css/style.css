@@ -4,8 +4,8 @@ h1 {
   font-weight: 900;
   font-size: 5em;
   line-height: 0px;
-  text-align: center;
-  color: #31373B;
+  text-align: left;
+  color: #161A1C;
   padding-top: 36px;
 }
 h4 {
@@ -14,23 +14,29 @@ h4 {
   text-transform: uppercase;
   font-size: 1.3em;
   letter-spacing: 2px;
-  text-align: center;
-  color: #31373B;
+  line-height: 1.4em;
+  text-align: left;
+  color: #161A1C;
   padding-bottom: 12px;
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
   line-height: 2em;
-  color: #31373B;
+  color: #161A1C;
   margin-top: 0;
   list-style-type: none;
   padding-top: 8px;
 }
 
+.blurb p {
+  font-weight: 600;
+  /*font-style: italic;*/
+}
+
 h2 {
   padding-top: 24px;
-  color: #31373B;
+  color: #161A1C;
   text-align: justify;
 }
 h2 a {
@@ -44,7 +50,7 @@ h2:after {
 
 h3 {
   font-family: "Open Sans", sans-serif;
-  color: #31373B;
+  color: #161A1C;
   font-weight: 600;
   margin: 0;
   padding-top: 24px;
@@ -52,25 +58,38 @@ h3 {
 
 a {
   text-decoration: underline;
-  color: #31373B;
+  color: #161A1C;
 }
 a:hover {
-  color: #C7805A;
+  color: #1894D2;
 }
 
 /*  POSITIONING  +  CONTENT  */
 body {
   background-color: #ffffff;
-  padding: 48px;
 }
 
 .top {
-  background: url(../img/evan.jpg) no-repeat center center fixed; 
+  background: url(../img/evansimoni4.jpg) no-repeat center top fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
+}
+
+.blurb {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 5%;
+}
+
+.small {
+  visibility: hidden;
 }
 
 .content {
@@ -79,7 +98,7 @@ body {
 }
 
 .divider {
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid #EBEBEB;
   height: 40px;
   margin-top: 48px;
 }
@@ -96,16 +115,27 @@ img {
 
 
 /*  MEDIA QUERIES  */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 767px) {
   body {
-    padding: 24px;
+    margin: 2%;
+  }
+  .top {
+    background: none;
+  }
+  .small {
+    visibility: visible;
+  }
+  .bottom {
+  position: relative;
+  bottom: auto;
   }
   h1 {
-    font-size: 2.5em;
-    padding-top: 0px;
+    font-size: 3em;
+    text-align: center;
   }
   h4 {
     padding-bottom: 0px;
+    text-align: center;
   }
   h2 {
     padding-top: 0px;

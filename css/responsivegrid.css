@@ -30,7 +30,7 @@
 
 /*  GRID OF THREE  */
 .span_3_of_3 {
-  width: 100%;
+  width: 98%;
 }
 .span_2_of_3 {
   width: 63.6%;
@@ -39,50 +39,29 @@
   width: 30.6%;
 }
 
-/*  GRID OF TWO  */
-
-.blurb {
-  max-width: 1200px;
-  /*border: 4px solid black;*/
-  margin: auto;
-  bottom: 0;
-}
-
-.span_1_of_2 {
-  width: 48%;
-  position: absolute;
-  bottom: 5%;
-}
-
-.span_2_of_2 {
-  width: 100%;
-}
-
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
-@media only screen and (max-width: 767px) {
+/*@media only screen and (max-width: 767px) {
   .col { 
     margin: 1% 0 1% 0%;
   }
-}
+}*/
 
 @media only screen and (max-width: 767px) {
   .span_2_of_2 {
-    width: 100%; 
+    width: 96%; 
   }
   .span_1_of_2 {
-    width: 100%; 
+    width: 96%; 
   }
-}
 
-@media only screen and (max-width: 767px) {
   .span_3_of_3 {
-    width: 100%; 
+    width: 96%; 
   }
   .span_2_of_3 {
-    width: 100%; 
+    width: 96%; 
   }
   .span_1_of_3 {
-    width: 100%;
+    width: 96%;
   }
 }
