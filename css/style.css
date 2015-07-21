@@ -133,6 +133,7 @@ img {
   .bottom {
   position: relative;
   bottom: auto;
+  min-width: 100%;
   }
   h1 {
     font-size: 3em;
