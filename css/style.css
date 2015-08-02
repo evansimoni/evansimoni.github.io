@@ -2,28 +2,28 @@
 h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 900;
-  font-size: 64px;
+  font-size: 96px;
   line-height: 0px;
   text-align: left;
   color: #161A1C;
-  padding-top: 92px;
+  /*padding-top: 92px;*/
 }
 h2 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
-  font-size: 32px;
-  letter-spacing: 2px;
+  font-size: 36px;
+  letter-spacing: 5px;
   line-height: 1.4em;
   text-align: left;
   color: #161A1C;
-  padding-bottom: 12px;
+  /*padding-bottom: 12px;*/
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
   line-height: 2em;
-  color: #161A1C;
+  color: #5E6569;
   margin-top: 0;
   list-style-type: none;
   padding-top: 8px;
@@ -57,38 +57,13 @@ a {
   color: #161A1C;
 }
 a:hover {
-  color: #1894D2;
+  color: #0087E0;
 }
 
 /*  POSITIONING  +  CONTENT  */
 body {
   background-color: #ffffff;
-}
-
-.top {
-  background: url(../img/evansimoni-lowres.jpg) no-repeat center top fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
-}
-
-.blurb {
-  max-width: 1200px;
-  margin: auto;
-  padding-left: 12px;
-  padding-right: 12px;
-}
-
-.bottom {
-  position: absolute;
-  bottom: 5%;
-  max-width: 400px;
-}
-
-.small {
-  visibility: hidden;
+  margin: 64px;
 }
 
 .content {
@@ -100,11 +75,11 @@ body {
 
 .divider {
   border-top: 1px solid #EBEBEB;
-  height: 40px;
+  height: 48px;
   margin-top: 48px;
 }
 .spacer {
-  height: 40px;
+  height: 48px;
   margin-top: 48px;
 }
 
@@ -118,19 +93,7 @@ img {
 /*  MEDIA QUERIES  */
 @media only screen and (max-width: 767px) {
   body {
-    margin: 2%;
-  }
-  .top {
-    height: 70vh;
-    background: none;
-  }
-  .small {
-    visibility: visible;
-  }
-  .bottom {
-  position: relative;
-  bottom: auto;
-  min-width: 100%;
+    margin: 6%;
   }
   h1 {
     font-size: 3em;
@@ -138,7 +101,9 @@ img {
     padding-top: 24px;
   }
   h2 {
+    font-size: 1.5em;
     padding-bottom: 0px;
+    letter-spacing: 3px;
     text-align: center;
   }
   h6 {
