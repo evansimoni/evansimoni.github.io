@@ -63,7 +63,7 @@ a:hover {
 /*  POSITIONING  +  CONTENT  */
 body {
   background-color: #ffffff;
-  margin: 64px;
+  margin: 80px;
 }
 
 .content {
@@ -93,7 +93,7 @@ img {
 /*  MEDIA QUERIES  */
 @media only screen and (max-width: 767px) {
   body {
-    margin: 6%;
+    margin: 10px;
   }
   h1 {
     font-size: 2.4em;
