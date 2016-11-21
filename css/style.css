@@ -27,13 +27,13 @@ p {
 }
 
 a {
-  border-bottom: 2px dotted #38373d;
+  border-bottom: 1px dotted #38373d;
   color: #222323;
   text-decoration: none;
 }
 
 a:hover {
-  background-color: # ;
+  background-color: #E9F5FD;
   cursor: pointer;
 }
 
@@ -50,7 +50,7 @@ body {
 }
 
 .divider {
-  border-top: 1px dashed #E4E5E6;
+  border-top: 1px solid #E4E5E6;
   margin: 24px 0px 32px 0px;
 }
 
