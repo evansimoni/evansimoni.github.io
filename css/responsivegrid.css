@@ -9,7 +9,6 @@
 .col {
   display: block;
   float:left;
-  padding: 1%;
 }
 .col:first-child { margin-left: 0; }
 

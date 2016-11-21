@@ -1,112 +1,75 @@
 /*  TEXT  */
 h1 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 0px;
-  text-align: left;
-  color: #161A1C;
-  /*padding-top: 92px;*/
+  font-family: 'Space Mono', mono; 
+  font-weight: 700;
+  font-size: 48px;
+  color: #222323;
+  margin: 0px;
 }
+
 h2 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
-  font-size: 36px;
-  letter-spacing: 5px;
-  line-height: 1em;
-  text-align: left;
-  color: #161A1C;
-  padding-top: 12px;
+  font-family: 'Space Mono', mono;
+  font-size: 28px;
+  color: #B1B2B3;
+  font-style: italic;
+  text-transform: lowercase;
+  margin: 0px 0px 24px 0px;
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
-  line-height: 2.2em;
-  color: #5E6569;
+  font-family: 'Rubik', mono;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 40px;
+  color: #222323;
   margin-top: 0;
   list-style-type: none;
-  padding-top: 8px;
-}
-
-h6 {
-  font-size: 24px;
-  padding-top: 24px;
-  color: #161A1C;
-  text-align: justify;
-}
-h6 a {
-  text-decoration: none;
-}
-h6:after {
-  content: "";
-  display: inline-block;
-  width: 100%;
-}
-
-h3 {
-  font-family: "Open Sans", sans-serif;
-  color: #161A1C;
-  font-weight: 600;
-  margin: 0;
-  padding-top: 24px;
 }
 
 a {
-  text-decoration: underline;
-  color: #161A1C;
+  border-bottom: 2px dotted #38373d;
+  color: #222323;
+  text-decoration: none;
 }
+
 a:hover {
-  color: #0087E0;
+  background-color: # ;
+  cursor: pointer;
 }
+
 
 /*  POSITIONING  +  CONTENT  */
 body {
-  background-color: #ffffff;
-  margin: 80px;
+  background-color: #FFFFFF;
 }
 
 .content {
-  max-width: 1200px;
+  max-width: 720px;
+  padding-top: 48px;
   margin: auto;
-  padding-left: 12px;
-  padding-right: 12px;
 }
 
 .divider {
-  border-top: 1px solid #EBEBEB;
-  height: 48px;
-  margin-top: 48px;
-}
-.spacer {
-  height: 48px;
-  margin-top: 48px;
-}
-
-img {
-  padding-bottom: 24px;
-  width: 100%;
+  border-top: 1px dashed #E4E5E6;
+  margin: 24px 0px 32px 0px;
 }
 
 
 /*  MEDIA QUERIES  */
 @media only screen and (max-width: 767px) {
-  body {
-    margin: 5px;
-  }
   h1 {
-    font-size: 2.4em;
-    text-align: center;
-    padding-top: 24px;
+    font-size: 40px;
   }
+
   h2 {
-    font-size: 1.5em;
-    padding-bottom: 0px;
-    letter-spacing: 3px;
-    text-align: center;
+    font-size: 24px;
   }
-  h6 {
-    padding-top: 0px;
-    padding-bottom: 0px;
+
+  p {
+    font-size: 18px;
+  }
+
+  .content {
+    padding: 24px 12px;
   }
 }
