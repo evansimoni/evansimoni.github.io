@@ -37,6 +37,10 @@ a:hover {
   cursor: pointer;
 }
 
+.strike {
+  text-decoration: line-through;
+}
+
 
 /*  POSITIONING  +  CONTENT  */
 body {
@@ -55,7 +59,7 @@ body {
 
 .divider {
   border-top: 1px dashed #E4E5E6;
-  margin: 24px 0px 32px 0px;
+  margin: 20px 0px 64px 0px;
 }
 
 
