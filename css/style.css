@@ -59,7 +59,7 @@ body {
 
 .divider {
   border-top: 1px dashed #E4E5E6;
-  margin: 20px 0px 64px 0px;
+  margin: 20px 0px 72px 0px;
 }
 
 
@@ -88,6 +88,6 @@ body {
 
   .divider {
   border-top: 1px dashed #E4E5E6;
-  margin: 24px 0px 24px 0px;
+  margin: 4px 0px 36px 0px;
   }
 }
